@@ -14,12 +14,14 @@
 	<h1><strong>Meeting Planifier</strong></h1>
 	<p>Please enter your Student ID to access teacher schedule :</p>
 	</div>
+	<div id="formdiv">
+	<form method="POST" action="log.php">
+		<p>INE : <input type="text" name="INE"/></p>
+		<p>Teacher : <input type="text" name="INP"/></p>
+	</form>
+	<button id="but">Validate</button>
+	</div>
 </td></tr>
 </table>
-<form method="POST" action="log.php">
-	<p>INE : <input type="text" name="INE"/></p>
-	<p>Teacher : <input type="text" name="INP"/></p>
-</form>
-<button>Validate</button>
 </body>
 </html>

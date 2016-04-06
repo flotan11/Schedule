@@ -3,24 +3,39 @@ html{
 	background-repeat: repeat;
 	text-align: center;
 	color: #c6002a;
+	width:auto;
 }
 
+@media screen and (max-width: 527px) {
+      #icon {
+        display: none;
+      }
+    }
+
+table{
+	width:auto;
+}	
+
 form{
-	padding-right: 45%;
-	padding-left: auto;
+	padding-left:5%;
 	text-align: right;
+	width:65%
+}
+
+#but{
+	margin-left:40%;
 }
 
 #icon{
-	padding-bottom: 80%;
+	padding-bottom:250px;
 	width: 80%;
 	height: auto;
 }
 
 #presentation{
 	font-family: Impact;
-	font-size: 30px;
-	padding-bottom: 30px;
+	font-size: 20px;
 	text-align: center;
+	width: 100%;
 }
 
