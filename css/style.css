@@ -22,12 +22,31 @@ form{
 	width:65%
 }
 
+.name{
+	text-align:center;
+	background-color:Black;
+}
+
+#schedule tr td{
+	border: 1px solid #c6002a;
+	cursor: pointer;
+	background-color:white;
+	opacity:0.5;
+	width:10%;
+}
+
+#schedule{
+	width: 100%;
+	border-spacing:20px 0px;
+}
+
 #but{
 	margin-left:40%;
 }
 
 #icon{
 	padding-bottom:250px;
+	padding-left:0px;
 	width: 80%;
 	height: auto;
 }
@@ -38,4 +57,3 @@ form{
 	text-align: center;
 	width: 100%;
 }
-
