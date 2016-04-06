@@ -2,15 +2,24 @@ html{
 	background-image: url('../img/eche.png');
 	background-repeat: repeat;
 	text-align: center;
-	color: #FF0000;
+	color: #c6002a;
 }
 
 form{
 	padding-right: 45%;
+	padding-left: auto;
 	text-align: right;
 }
 
+#icon{
+	padding-bottom: 80%;
+	width: 80%;
+	height: auto;
+}
+
 #presentation{
+	font-family: Impact;
+	font-size: 30px;
 	padding-bottom: 30px;
 	text-align: center;
 }
