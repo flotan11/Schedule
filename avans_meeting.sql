@@ -1,4 +1,4 @@
--- phpMyAdmin SQL Dump
+﻿-- phpMyAdmin SQL Dump
 -- version 4.5.1
 -- http://www.phpmyadmin.net
 --
@@ -52,7 +52,7 @@ CREATE TABLE `student` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
-
+13:44 06/04/2016
 --
 -- Structure de la table `subscription`
 --
