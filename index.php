@@ -15,11 +15,11 @@
 	<p>Please enter your Student ID to access teacher schedule :</p>
 	</div>
 	<div id="formdiv">
-	<form method="POST" action="log.php">
+	<form method="POST" action="check_log.php">
 		<p>INE : <input type="text" name="INE"/></p>
 		<p>Teacher : <input type="text" name="INP"/></p>
+		<input type="Submit"  value="Enter">
 	</form>
-	<button id="but">Validate</button>
 	</div>
 </td></tr>
 </table>

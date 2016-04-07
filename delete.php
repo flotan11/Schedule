@@ -10,7 +10,7 @@ try {
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     // sql to delete a record
-    $sql = "DELETE FROM event WHERE event_title=2";
+    $sql = "DELETE FROM event WHERE event_title=15";
     // use exec() because no results are returned
     $conn->exec($sql);
     echo "Record deleted successfully";

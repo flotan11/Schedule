@@ -12,7 +12,7 @@
 </td><td>
 	<div id="presentation">
 		<h1><strong>Meeting Planifier</strong></h1>
-		<p>Welcome to the schedule of Mr.<?php /*TODO requete PHP nom Prof*/?></p>
+		<p>Welcome to the schedule of Mr.<?php  echo $_COOKIE['teacher_name'] ?></p>
 		<p>Please select the date you would like to meet him :</p>
 	</div>
 </td></tr>

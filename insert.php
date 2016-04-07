@@ -9,8 +9,8 @@ try {
     // set the PDO error mode to exception
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
    
-    $sql = "INSERT INTO subscription (student_id, event_number, date, time)
-    VALUES (0701562, 5547845, '2015-05-12', '05:30:20')";
+    $sql = "INSERT INTO event (event_title,teacher_id,startdate,endate,location,remarks)
+    VALUES (15, 5600101, '2015-05-12', '2015-05-12','AVANS ATFYG', '...')";
     // use exec() because no results are returned
     $conn->exec($sql);
     echo "New record created successfully";
