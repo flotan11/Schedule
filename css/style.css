@@ -51,20 +51,30 @@ form{
 	margin-left:40%;
 }
 
+#move{
+	margin-left:10%;
+}
+
 #move td{
-	width:50%
+	width:33%
 }
 
 #previous{
 	width:100px;	
 	position: float;
-	margin-left:20%;
+	margin-left:10%;
+}
+
+#actual{
+	width:100px;
+	position: float;
+	margin-left:50%;
 }
 
 #next{
 	width:100px;
 	position:float;
-	margin-left:80%;
+	margin-left:100%;
 }
 
 #icon{
