@@ -27,11 +27,18 @@ form{
 	background-color:Black;
 }
 
+.passed{
+	opacity:0.5;	
+	background-color: 1bff00;
+}
+
+.notPassed{
+	background-color: white;
+	opacity:0.5;
+}
 #schedule tr td{
 	border: 1px solid #c6002a;
 	cursor: pointer;
-	background-color:white;
-	opacity:0.5;
 	width:10%;
 }
 
@@ -44,8 +51,24 @@ form{
 	margin-left:40%;
 }
 
+#move td{
+	width:50%
+}
+
+#previous{
+	width:100px;	
+	position: float;
+	margin-left:20%;
+}
+
+#next{
+	width:100px;
+	position:float;
+	margin-left:80%;
+}
+
 #icon{
-	padding-bottom:250px;
+	padding-bottom:200px;
 	padding-left:0px;
 	width: 80%;
 	height: auto;

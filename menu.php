@@ -32,15 +32,30 @@
 		}
 		echo '</tr><tr>';
 		$h=8;
+		$day->modify('+8 hour');
 		for ($i=0;$i<10;$i++){
-			$h=$h+$i;
+			$day->modify('-5 day');
 			echo '<tr>';
 			for ($j=0;$j<5;$j++){
-				echo '<td>'.$h.'H</td>';
+				if (time()>($day->getTimestamp())){
+					echo '<td class=\'passed\'>'.$h.'H</td>';
+				}else{
+					echo '<td class=\'notPassed\'>'.$h.'H</td>';
+				}
+				$day->modify('+1 day');
 			}
+			$day->modify('+1 hour');
+			$h++;
 			echo '</tr>';
 		}
 	?>
+</table>
+<table id='move'>
+<tr><td>
+	<button id='previous'>Previous</button>
+</td><td>
+	<button id='next'>Next</button>
+</td></tr>
 </table>
 </body>
 </html>
