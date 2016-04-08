@@ -51,10 +51,47 @@
 		<p>Please select the date you would like to meet him :</p>
 	</div>
 </td></tr>
-</table>	
+</table>
+<form id="selection" action="menu.php" method="post">
+<table> 
+<tr><td>
+	<select name="months">
+	<?php if (!isset($_POST['months'])){
+		$_POST['months']=date('N')-1;
+	}?>
+	<option value="1" <?php echo $_POST['months']=='1' ? 'selected=\'selected\'':'' ?>>January</option>
+	<option value="2" <?php echo $_POST['months']=='2' ? 'selected=\'selected\'':'' ?>>February</option>
+	<option value="3" <?php echo $_POST['months']=='3' ? 'selected=\'selected\'':'' ?>>March</option>
+	<option value="4" <?php echo $_POST['months']=='4' ? 'selected=\'selected\'':'' ?>>April</option>
+	<option value="5" <?php echo $_POST['months']=='5' ? 'selected=\'selected\'':'' ?>>May</option>
+	<option value="6" <?php echo $_POST['months']=='6' ? 'selected=\'selected\'':'' ?>>June</option>
+	<option value="7" <?php echo $_POST['months']=='7' ? 'selected=\'selected\'':'' ?>>July</option>
+	<option value="8" <?php echo $_POST['months']=='8' ? 'selected=\'selected\'':'' ?>>August</option>
+	<option value="9" <?php echo $_POST['months']=='9' ? 'selected=\'selected\'':'' ?>>September</option>
+	<option value="10" <?php echo $_POST['months']=='10' ? 'selected=\'selected\'':'' ?>>October</option>
+	<option value="11" <?php echo $_POST['months']=='11' ? 'selected=\'selected\'':'' ?>>November</option>
+	<option value="12" <?php echo $_POST['months']=='12' ? 'selected=\'selected\'':'' ?>>December</option>
+	</select>
+</td><td>
+	<select name="weeks">
+    <option value="1">First Week</option>
+    <option value="2">Second Week</option>
+    <option value="3">Third Week</option>
+    <option value="4">Fourth Week</option>
+	</select>
+</td><td>
+	<input type="submit" value="Validate" />
+</td></tr>
+</table>
+</form>
 	<?php
 		if(isset($_POST['button'])){
 			$f=$_POST['button'];
+		}else if(isset($_POST['weeks']) && isset($_POST['months'])){
+			$jour = ($_POST['weeks']*7)-3;
+			$mois = $_POST['months'];
+			$timestamp = mktime(0, 0, 0, $mois, $jour,date('Y'));
+			$f=date('W')-date('W', $timestamp);
 		}else{
 			$f=0;
 		}
