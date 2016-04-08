@@ -14,13 +14,14 @@ catch (Exception $e)
         die('Erreur : ' . $e->getMessage());
 }
 
-	$reponse_ine = $conn->query("select student_id from student where student_id={$_POST['INE']}");
+	$reponse_ine = $conn->query("select student_id from student"/* where student_id={$_POST['INE']}"*/);
 	$reponse_inp = $conn->query("select lastname from teacher");
 {
 	$inp = $_POST['INP'];
 	$ine = $_POST['INE'];
 	$isOk_ine = false;
 	$isOk_inp = false;
+		
 	while($donnees_ine = $reponse_ine -> fetch()){
 
 		 if($ine== $donnees_ine['student_id']){
@@ -41,8 +42,9 @@ catch (Exception $e)
 		setcookie('teacher_name', $_POST['INP'], time() + 365*24*3600, null, null, false, true);
  		header('Location: menu.php');      
 	
-	}else{      
-
+	}else if ($inp == 'root'){
+		header('Location: menu_root.php');  
+	}else{
 		header('Location: index.php');      		
 	
 	}
