@@ -56,9 +56,16 @@
 <table> 
 <tr><td>
 	<select name="months">
-	<?php if (!isset($_POST['months'])){
-		$_POST['months']=date('N')-1;
-	}?>
+	<?php
+		$day=new DateTime();
+		$day->setTimestamp(mktime(0,0,0,date('n'),date('j'),date('Y')));
+		if (!isset($_POST['months']) && (!isset($_POST['button']))){
+			$_POST['months']=date_format($day,'n');
+		}else if(!isset($_POST['months']) && (isset($_POST['button']))){
+			$day->modify('-'.$_POST['button'].'week');
+			$_POST['months']=date_format($day,'n');
+		}
+		?>
 	<option value="1" <?php echo $_POST['months']=='1' ? 'selected=\'selected\'':'' ?>>January</option>
 	<option value="2" <?php echo $_POST['months']=='2' ? 'selected=\'selected\'':'' ?>>February</option>
 	<option value="3" <?php echo $_POST['months']=='3' ? 'selected=\'selected\'':'' ?>>March</option>
@@ -74,10 +81,43 @@
 	</select>
 </td><td>
 	<select name="weeks">
-    <option value="1">First Week</option>
-    <option value="2">Second Week</option>
-    <option value="3">Third Week</option>
-    <option value="4">Fourth Week</option>
+<?php
+	$datec=new DateTime();
+	$datec->setTimestamp(mktime(0,0,0,$_POST['months'],1,date('Y')));
+	$f=1;
+	if (!isset($_POST['weeks'])/* && (!isset($_POST['button']))*/){
+		while (date('j')>=date_format($datec,'j')){
+			if(date_format($datec,'l')=='Sunday'){
+				$f++;
+			}
+			$datec->modify('+1 day');
+		}
+		$_POST['weeks']=$f;
+	}/*else if(!isset($_POST['weeks']) && (isset($_POST['button']))){
+		$c= date('w')-1-($_POST['button']*7);
+		if ($c<0){
+			$c=date_format($datec,'t');
+		}else if($c>31){
+			$c=1;
+		}
+		?>
+			<script>console.log(<?php echo $c; ?>)</script>
+		<?php
+		$f=1;
+		while ($c>=date_format($datec,'j')){
+			if(date_format($datec,'l')=='Sunday'){
+				$f++;
+			}
+			$datec->modify('+1 day');
+		}
+		$_POST['weeks']=$f;
+	}*/
+?>
+    <option value="1" <?php echo $_POST['weeks']=='1' ? 'selected=\'selected\'':'' ?>>First Week</option>
+    <option value="2" <?php echo $_POST['weeks']=='2' ? 'selected=\'selected\'':'' ?>>Second Week</option>
+    <option value="3" <?php echo $_POST['weeks']=='3' ? 'selected=\'selected\'':'' ?>>Third Week</option>
+    <option value="4" <?php echo $_POST['weeks']=='4' ? 'selected=\'selected\'':'' ?>>Fourth Week</option>
+    <option value="5" <?php echo $_POST['weeks']=='5' ? 'selected=\'selected\'':'' ?>>Fifth Week</option>
 	</select>
 </td><td>
 	<input type="submit" value="Validate" />
@@ -88,7 +128,7 @@
 		if(isset($_POST['button'])){
 			$f=$_POST['button'];
 		}else if(isset($_POST['weeks']) && isset($_POST['months'])){
-			$jour = ($_POST['weeks']*7)-3;
+			$jour = ($_POST['weeks']*7)-6;
 			$mois = $_POST['months'];
 			$timestamp = mktime(0, 0, 0, $mois, $jour,date('Y'));
 			$f=date('W')-date('W', $timestamp);
