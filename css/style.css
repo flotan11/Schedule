@@ -6,12 +6,17 @@ html{
 	width:auto;
 }
 
+body{
+	margin:0px;
+	width:100%;
+}
+
 @media screen and (max-width: 527px) {
       #icon {
         display: none;
       }
-    }
-
+}
+	
 table{
 	width:auto;
 }	
@@ -31,6 +36,34 @@ form{
 	opacity:0.5;	
 	background-color: 1bff00;
 }
+
+.navbar {
+	background-color:#181712;
+	font-family:Verdana;
+	height:45px;
+}
+
+.navbar a {
+	position:float;
+	float:left;
+	background-color:#00ACEB;
+	color:white;
+	width:24.3%;
+	border:0.25px solid black;
+	padding:0.75em 0em 0.75em 0em;
+	text-decoration:none;
+}
+
+.navbar a:hover {
+	background-color:#c6002a;
+	padding:0.75em 0em 0.75em 0em;
+}
+
+.navbar a.selected {
+	background-color:#c6002a;
+	padding:0.75em 0em 0.75em 0em;
+	color:white;
+	}
 
 .notPassed{
 	background-color: white;
@@ -83,6 +116,26 @@ form{
 	width: 80%;
 	height: auto;
 }
+
+#iconav {
+	margin-top:2.5px;
+	height:40px;
+	width:auto;
+	float:left;
+}
+
+#navorg{
+	margin-left:45%;
+}
+	
+@media screen and (max-width: 700px) {
+	  #iconav{
+		  display: none;
+	  }
+	  #navorg{
+		  margin-left:0%;
+	  }
+}	
 
 #presentation{
 	font-family: Impact;
