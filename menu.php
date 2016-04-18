@@ -1,3 +1,7 @@
+<?php 
+	session_start();
+?>
+<!DOCTYPE html>
 <html>
 <head>
 <link rel="stylesheet" href="css/style.css" type="text/css"/>
@@ -39,6 +43,24 @@
 		}
 		echo '</table>';
 	}
+	
+	if(!isset($_SESSION['logged']) || $_SESSION['status']!='student') {
+		echo '<h2>You dont have the right access, please try to connect and try again.</h2>';
+		$target="";
+		if (isset($_SESSION['status'])){
+			switch ($_SESSION['status']){
+				case 'root':
+					$target='menu_root.php';
+					break;
+				case 'teacher':
+					$target='menu_teacher.php';
+					break;
+			}
+		}else{
+			$target='index.php';
+		}
+		echo '<button id="retur" name="button" onclick="document.location.href=\''.$target.'\'">Come back to Menu</button>';
+	}else{
 ?>
 
 <table>
@@ -148,5 +170,8 @@
 </td></tr>
 </table>
 </form>
+<?php 
+	}
+?>
 </body>
 </html>

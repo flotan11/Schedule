@@ -1,0 +1,31 @@
+Requirements
+1- teacher has overview of planning on start screen (not by event but by date/time)
+2- teacher can mix events in same time slots
+3- teacher can put students in teams per event
+4- system has a supervisor account
+5- supervisor can put lists of students in the main student list (upload)
+	(student number, first name, perfix, last name, group, e-mail address)
+6- supervisor can maintain main student list
+7- teacher can not add new users to system
+8- teacher can allow existsing users to subscribe
+9- teacher can plan different events with same or overlapping time-slots
+10- system is utf-8 encoded (sources, html and database)
+11- system is htlm5 compliant https://validator.w3.org/
+12- system uses architecture to separate view, logic and data
+13- system's stylesheets are css3 compliant https://jigsaw.w3.org/css-validator/
+14- user can switch language of the user interface (english / dutch / french ...)
+15- student gets overview of events he has subscribed to or can subscribe to
+16- event has period that subscription is allowed: start-date and and-date
+17- teacher can import list of student numbers (plus team) for an event from excel or csv/text file 
+18- teacher can select students from main student list (filter by group, name...)
+19- team mates must subscribe in same time slot
+20- student can cancel or reschedule a subscriptions that is in the future (sliding window, set per event)
+21- student can not cancel or reschedule a subscription that is in the past
+22- teacher can remove subscriptions to allow students to reschedule
+23- teacher can get an overview of all students in an event, with their time slot (sort by name, time, ..)
+24- possible user authorisation systems:
+	- students can log in with a code (default code is student id)
+	- teachers can log in with a secret code
+	- system can send invitations to students by e-mail with a personal code or link
+	- users use avans login system to enter the system
+

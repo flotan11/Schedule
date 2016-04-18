@@ -7,7 +7,7 @@ private function navIt($items) {
  		$selected = basename($_SERVER['PHP_SELF']) == $key ? 'selected' : null;
  		$html .= "<a href='{$item['url']}'class='{$selected}'>{$item['text']}</a>\n";
  	}
- 	$html .= "</div></nav>\n";
+ 	$html .= "<a href='logout.php' class='logout'>Logout</a></div></nav>\n";
  	return $html;
  }
 

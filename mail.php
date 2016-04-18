@@ -1,3 +1,7 @@
+<?php 
+	session_start();
+?>
+<!DOCTYPE html>
 <html>
 <head>
 <script src="jquery-2.2.3.js"></script>
@@ -9,12 +13,33 @@
 </header>
 <body>
 <?php
-	require 'navb.php';
-	echo navb::generateNav();
-?>
+	if(!isset($_SESSION['logged']) || $_SESSION['status']!='teacher') {
+		echo '<h2>You dont have the right access, please try to connect and try again.</h2>';
+		$target="";
+		if (isset($_SESSION['status'])){
+			switch ($_SESSION['status']){
+				case 'root':
+					$target='menu_root.php';
+				break;
+				case 'student':
+					$target='menu.php';
+				break;
+			}
+		}else{
+			$target='index.php';
+		}
+		echo '<button id="retur" name="button" onclick="document.location.href=\''.$target.'\'">Come back to Menu</button>';
+	}else{
+		require 'navb.php';
+		echo navb::generateNav();
+		try{
+			$bdd=new PDO('mysql:host=home.spijkerman.nl;dbname=subs;charset=utf8','subs','sub564-A');
+		}catch (Exception $e){
+			die('Erreur : ' . $e->getMessage());
+		}
+	?>
 
 <form id="mailIt" name="mailIt" method="post" action="mail.php">
-	<p>Event Number: <input type="text" name="enomber"/></p>
 	<table class="dTable" id="formtab">
 		<thead>
 			<tr><th>
@@ -48,6 +73,7 @@ $header .= "Reply-to: \"WeaponsB\" <weaponsb@mail.fr>".$passage_ligne;
 $header .= "MIME-Version: 1.0".$passage_ligne;
 $header .= "Content-Type: multipart/alternative;".$passage_ligne." boundary=\"$boundary\"".$passage_ligne;
 //==========*/
+}
 ?>
 </body>
 </html>
