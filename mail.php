@@ -13,7 +13,7 @@
 	echo navb::generateNav();
 ?>
 
-<form name="mailIt" method="post" action="mail.php">
+<form id="mailIt" name="mailIt" method="post" action="mail.php">
 	<p>Event Number: <input type="text" name="enomber"/></p>
 	<table class="dTable" id="formtab">
 		<thead>

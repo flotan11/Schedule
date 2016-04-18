@@ -1,3 +1,9 @@
+@media screen and (max-width: 527px) {
+      #icon {
+        display: none;
+      }
+}	
+
 html{
 	background-image: url('../img/eche.png');
 	background-repeat: repeat;
@@ -10,16 +16,6 @@ body{
 	margin:0px;
 	width:100%;
 }
-
-@media screen and (max-width: 527px) {
-      #icon {
-        display: none;
-      }
-}
-	
-table{
-	width:auto;
-}	
 
 form{
 	padding-left:5%;
@@ -34,7 +30,7 @@ form{
 
 .passed{
 	opacity:0.5;	
-	background-color: 1bff00;
+	background-color: #1bff00;
 }
 
 .navbar {
@@ -44,24 +40,22 @@ form{
 }
 
 .navbar a {
-	position:float;
 	float:left;
 	background-color:#00ACEB;
 	color:white;
 	width:24.3%;
-	border:0.25px solid black;
+	border-left:0.25px solid black;
+	border-right:0.25px solid black;
 	padding:0.75em 0em 0.75em 0em;
 	text-decoration:none;
 }
 
 .navbar a:hover {
 	background-color:#c6002a;
-	padding:0.75em 0em 0.75em 0em;
 }
 
 .navbar a.selected {
 	background-color:#c6002a;
-	padding:0.75em 0em 0.75em 0em;
 	color:white;
 	}
 
@@ -73,6 +67,19 @@ form{
 	border: 1px solid #c6002a;
 	cursor: pointer;
 	width:10%;
+}
+
+#formtab{
+	border: 3px solid Black;
+	width:45%;
+}
+
+#formtab th{
+	border: 2px solid Black;
+}
+
+#formtab td{
+	border: 1px solid Black;
 }
 
 #schedule{
@@ -89,24 +96,27 @@ form{
 }
 
 #move td{
-	width:33%
+	width:33%;
+}
+
+#mailIt{
+	padding-top:5%;
+	text-align:left;
+	width: 90%;
 }
 
 #previous{
 	width:100px;	
-	position: float;
 	margin-left:10%;
 }
 
 #actual{
 	width:100px;
-	position: float;
 	margin-left:50%;
 }
 
 #next{
 	width:100px;
-	position:float;
 	margin-left:100%;
 }
 
@@ -126,8 +136,16 @@ form{
 
 #navorg{
 	margin-left:45%;
+	height:45px;
 }
 	
+#presentation{
+	font-family: Impact;
+	font-size: 20px;
+	text-align: center;
+	width: 100%;
+}
+
 @media screen and (max-width: 700px) {
 	  #iconav{
 		  display: none;
@@ -135,11 +153,17 @@ form{
 	  #navorg{
 		  margin-left:0%;
 	  }
-}	
+}
 
-#presentation{
-	font-family: Impact;
-	font-size: 20px;
-	text-align: center;
+input[name="mail[]"] { 
+
+	background-color: rgba(255, 255, 255, 0.5);
 	width: 100%;
+	color: #c6002a;
+}
+
+input[name="INE[]"] {
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 100%;
+	color: #c6002a;
 }
