@@ -61,5 +61,6 @@ Supervisor:
 	- Supervisor uses a button to select a table and fill in a quick form for insert data in a table.
 	- Supervisor can select a table with a button and a given for editing it.
 	- Supervisor can delete data in the display menu with a delete button next to the value.
-
+	- On each pages there is a title for inform what is the page.
+	- search bar to find someone.
 

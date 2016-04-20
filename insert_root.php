@@ -27,7 +27,7 @@ if (! isset ( $_SESSION ['logged'] ) || $_SESSION ['status'] != 'root') {
 	}
 	echo '<button id="retur" name="button" onclick="document.location.href=\'' . $target . '\'">Come back to Menu</button>';
 } else {
-	require 'navb_root.php';
+	require 'navb.php';
 	echo navb::generateNav();
 ?>
 
