@@ -1,14 +1,8 @@
-@media screen and (max-width: 527px) {
-      #icon {
-        display: none;
-      }
-}	
-
 html{
 	background-image: url('../img/eche.png');
 	background-repeat: repeat;
 	text-align: center;
-	color: black;
+	color: #c6002a;
 	width:auto;
 }
 
@@ -18,41 +12,9 @@ body{
 }
 
 form{
-	margin:50px;
-	color : #c6002a;
 	padding-left:5%;
 	text-align: right;
-	width:50%
-}
-select{
-	font-size:18px;
-	margin-bottom:50px;
-	width:30%;
-	height:3%;
-}
-
-input{
-	width : 5%;
-	height : 3.1%;
-}
-
-
-#presentation{
-
-	margin-top : 50px;
-	margin-bottom : 50px;
-	color: #181712;
- 	border: 3px;
-    	border-style: solid;
-	border-color:  #181712;
-	background-color : #c6002a;
-
-}
-
-#tables{
-
-	margin-left:300px;
-	margin-right:-350px;
+	width:65%
 }
 
 .name{
@@ -66,11 +28,11 @@ input{
 	height:45px;
 }
 
-.navbar a {
+.navbar a:not(.logout){
 	float:left;
 	background-color:#00ACEB;
 	color:white;
-	width:24.3%;
+	width:19.5%;
 	border-left:0.25px solid black;
 	border-right:0.25px solid black;
 	padding:0.75em 0em 0.75em 0em;
@@ -84,8 +46,38 @@ input{
 .navbar a.selected {
 	background-color:#c6002a;
 	color:white;
-	}
+}
 
+.logout {
+	float: right;
+	margin-right:0.5em;
+	margin-top:0.3em;
+	color:white;
+	border:0.25px solid black;
+	padding:0.25em 0.5em 0.5em 0.5em;
+	background-color:RED;
+	width: auto;
+	text-decoration:none;
+}
+
+.menu{
+	width: 100%;
+}
+
+.menu td{
+	width: 33%;
+}
+
+.menu .logout{
+	margin-bottom: 50%;
+}
+
+#icon{
+	padding-bottom:200px;
+	padding-left:0px;
+	width: 80%;
+	height: auto;
+}
 
 #iconav {
 	margin-top:2.5px;
@@ -98,222 +90,10 @@ input{
 	margin-left:45%;
 	height:45px;
 }
-
-<style type="text/css">
-.form-style-5{
-    max-width: 500px;
-    padding: 10px 20px;
-    background: #f4f7f8;
-    margin: 10px auto;
-    padding: 20px;
-    background: #f4f7f8;
-    border-radius: 8px;
-    font-family: Georgia, "Times New Roman", Times, serif;
-}
-.form-style-5 fieldset{
-    border: none;
-}
-.form-style-5 legend {
-    font-size: 1.4em;
-    margin-bottom: 10px;
-}
-.form-style-5 label {
-    display: block;
-    margin-bottom: 8px;
-}
-.form-style-5 input[type="text"],
-.form-style-5 input[type="date"],
-.form-style-5 input[type="datetime"],
-.form-style-5 input[type="email"],
-.form-style-5 input[type="number"],
-.form-style-5 input[type="search"],
-.form-style-5 input[type="time"],
-.form-style-5 input[type="url"],
-.form-style-5 textarea,
-.form-style-5 select {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    background: rgba(255,255,255,.1);
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    margin: 0;
-    outline: 0;
-    padding: 7px;
-    width: 100%;
-    box-sizing: border-box; 
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box; 
-    background-color: #e8eeef;
-    color:#8a97a0;
-    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
-    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
-    margin-bottom: 30px;
-    
-}
-.form-style-5 input[type="text"]:focus,
-.form-style-5 input[type="date"]:focus,
-.form-style-5 input[type="datetime"]:focus,
-.form-style-5 input[type="email"]:focus,
-.form-style-5 input[type="number"]:focus,
-.form-style-5 input[type="search"]:focus,
-.form-style-5 input[type="time"]:focus,
-.form-style-5 input[type="url"]:focus,
-.form-style-5 textarea:focus,
-.form-style-5 select:focus{
-    background: #d2d9dd;
-}
-.form-style-5 select{
-    -webkit-appearance: menulist-button;
-    height:35px;
-}
-.form-style-5 .number {
-    background: #1abc9c;
-    color: #fff;
-    height: 30px;
-    width: 30px;
-    display: inline-block;
-    font-size: 0.8em;
-    margin-right: 4px;
-    line-height: 30px;
-    text-align: center;
-    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
-    border-radius: 15px 15px 15px 0px;
-}
-
-.form-style-5 input[type="submit"],
-.form-style-5 input[type="button"]
-{
-    position: relative;
-    display: block;
-    padding: 19px 39px 18px 39px;
-    color: #FFF;
-    margin: 0 auto;
-    background: #1abc9c;
-    font-size: 18px;
-    text-align: center;
-    font-style: normal;
-    width: 100%;
-    border: 1px solid #16a085;
-    border-width: 1px 1px 3px;
-    margin-bottom: 10px;
-}
-.form-style-5 input[type="submit"]:hover,
-.form-style-5 input[type="button"]:hover
-{
-    background: #109177;
-}
-</style>
-
-
-@import "compass/css3";
-
-* { @include box-sizing(border-box); }
-body { 
-  background: #333;
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
-  font-size: 14px;
-  line-height: 1.4;
-  padding: 20px;
-}
-h1, h2 {
-  font-family: Sans-Serif; 
-}
-
-.pro-form {
-  width: 350px;
-  border-radius: 20px;
-  @include background(linear-gradient(#268ad0, #59c1d4));
-  padding: 2px 20px 20px 20px;
-  .field {
-    margin: 0 0 10px 0;
-    input[type=text], input[type=number] {
-      width: 100%;
-    }
-  }
-}
-#card_zip {
-  width: 50%;
-}
-#card_code {
-  width: 30%;
-}
-#card_address_2 {
-  margin-top: 3px;
-}
-
-.actions {
-  margin-top: 25px;
-  .button {
-    display: block;
-    width: 100%;
-    float: none;
-    text-align: center;
-    font-size: 120%;
-  }
-}
-
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-input[type='text'],
-input[type='number'], {
-  -webkit-appearance: none;
-  @include background(linear-gradient(#ccc, #fff));
-  padding: 4px 20px 4px 5px;
-  outline: 0;
-  border: 0;
-  box-shadow: inset 1px 1px 1px rgba(black, 0.3);
-  &:focus {
-    background: white;
-  }
-}
-
-.button {
-  float: left;
-  border: 0;
-  padding: 12px 16px;
-  @include background(linear-gradient(#323232, #272727));
-  box-shadow: inset 0 1px 0 #3c3c3c;
-  border-radius: 5px;
-  border: 1px solid #111;
-  color: white !important;
-  font-size: 16px;
-  text-shadow: 0 1px 1px rgba(0,0,0,0.8);
-  text-overflow: ellipsis;
-  cursor: pointer;
-  &:hover, &:focus, &.gsc-cursor-current-page {
-    background: #333;
-    text-decoration: none !important;
-    @include box-shadow((0 2px 3px -2px rgba(0, 0, 0, 0.5)));
-    strong {
-      background: #999;
-      color: black;
-    }
-  }
-  &:active {
-    position: relative;
-    top: 1px;
-    box-shadow: none;
-  }
-  &.active {
-    background: black;
-  }
-  a {
-    color: white;
-  }
-}
-
-.progress-wrap {
-  text-align: center;
-  font-size: 10px;
-  color: white;
-  margin: 0 0 20px 0;
-  progress {
-    width: 100%;
-    margin: 0 0 5px 0;
-  }
-}
 	
+#presentation{
+	font-family: Impact;
+	font-size: 20px;
+	text-align: center;
+	width: 100%;
+}
