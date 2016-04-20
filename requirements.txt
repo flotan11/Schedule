@@ -4,10 +4,10 @@ Requirements
 3- teacher can put students in teams per event
 4- system has a supervisor account
 5- supervisor can put lists of students in the main student list (upload)
-	(student number, first name, perfix, last name, group, e-mail address)
+	(student number, first name, prefix, last name, group, e-mail address)
 6- supervisor can maintain main student list
 7- teacher can not add new users to system
-8- teacher can allow existsing users to subscribe
+8- teacher can allow existing users to subscribe
 9- teacher can plan different events with same or overlapping time-slots
 10- system is utf-8 encoded (sources, html and database)
 11- system is htlm5 compliant https://validator.w3.org/
@@ -29,3 +29,10 @@ Requirements
 	- system can send invitations to students by e-mail with a personal code or link
 	- users use avans login system to enter the system
 
+Teacher:
+
+Student:
+	-Student has quickly access to General Schedule after log
+	-Student can choose to focus a precise event
+Supervisor:
+	-Supervisor can do all basic SQL request by his interface
