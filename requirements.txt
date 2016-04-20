@@ -29,9 +29,28 @@ Requirements
 	- system can send invitations to students by e-mail with a personal code or link
 	- users use avans login system to enter the system
 
+Global:
+	-The website has a design with AVANS styles (colors,  pattern, ...)
+	-Teacher/Supervisor interfaces have a navbar to naviguate in pages.
 Teacher:
+   .menu_teacher.php:
+	-Teacher can naviguate in time if events length is superior to 5 days
+   .mail.php:
+	-Teacher need to send mail to invite some students in event
+	-Teacher can tick an event in mail categorie to add group of students
+	-Teacher can import a list of students by excel or CSV/text file (if they are already in the system)
+	-Teacher can enter nomber of students to add them (without create excel or CSV/text file)
+	-Teacher can choose to send and pre-writed mail or personnalise it
+   .createE.php:
+	-Teacher can enter name of event and select dates of Start and End
+	-Date are controlled (Date end > Date Start)
+	-Teacher is reconduct to menu_teacher.php with the new event created in selected
+   .listE.php:
+	-Teacher can have access to a list of Student for an specified event
+	-Teacher can search precise student with a Search bar
 
 Student:
+   .menu.php:
 	-Student has quickly access to General Schedule after log
 	-Student can choose to focus a precise event
 Supervisor:
