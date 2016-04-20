@@ -4,7 +4,8 @@ session_start ();
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="css/style.css" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../../css/style.css" type="text/css" />
 </head>
 <header>
 	<title>Meeting Plannifier</title>
@@ -65,7 +66,7 @@ if (! isset ( $_SESSION ['logged'] ) || $_SESSION ['status'] != 'student') {
 
 <table class="menu">
 		<tr>
-			<td><img id="icon" src="img/avans.png" alt="AVANS Icon"></td>
+			<td><img id="icon" src="../../img/avans.png" alt="AVANS Icon"></td>
 			<td>
 				<div id="presentation">
 					<h1>
@@ -75,7 +76,7 @@ if (! isset ( $_SESSION ['logged'] ) || $_SESSION ['status'] != 'student') {
 					<p>Please select the date you would like to meet him :</p>
 				</div>
 			</td>
-			<td><a href='logout.php' class='logout'>Logout</a>
+			<td><a href='../../controller/logout.php' class='logout'>Logout</a>
 			</div>
 				</nav></td>
 		</tr>

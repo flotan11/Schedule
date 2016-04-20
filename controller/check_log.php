@@ -49,11 +49,11 @@ $reponse_int = $conn->query ( "select teacher_id from teacher" );
 	if ($inp == 'root' && $ine == 'root') {
 		$_SESSION ['status'] = 'root';
 		$reponse_inp->closeCursor ();
-		header ( 'Location: menu_root.php' );
+		header ( 'Location: ../viewer/root/menu_root.php' );
 	} else if ($isOk_ine == true && $isOk_inp == true) {
 		$_SESSION ['status'] = 'student';
-		setcookie ( 'teacher_name', $_POST ['INP'], time () + 365 * 24 * 3600, null, null, false, true );
-		header ( 'Location: menu.php' );
+		setcookie ( 'teacher_name', $inp, time () + 365 * 24 * 3600, null, null, false, true );
+		header ( 'Location: ../viewer/student/menu.php' );
 	} else {
 		while ( $donnees_int = $reponse_int->fetch () ) {
 			if ($ine == $donnees_int ['teacher_id']) {
@@ -72,10 +72,10 @@ $reponse_int = $conn->query ( "select teacher_id from teacher" );
 		
 		if ($isOk_inl == true && $isOk_int == true) {
 			$_SESSION ['status'] = 'teacher';
-			header ( 'Location: menu_teacher.php' );
+			header ( 'Location: ../viewer/teacher/menu_teacher.php' );
 		} else {
 			session_destroy ();
-			header ( 'Location: index.php' );
+			header ( 'Location: ../viewer/index.php' );
 		}
 	}
 }

@@ -2,12 +2,12 @@
 class navb {
 	public static function navIt($items) {
 		$html = "<nav class='navbar'>\n";
-		$html .= "<img id='iconav' src='img/avans.png' alt='AVANS Icon'> <div id='navorg'>";
+		$html .= "<img id='iconav' src='../../img/avans.png' alt='AVANS Icon'> <div id='navorg'>";
 		foreach ( $items as $key => $item ) {
 			$selected = basename ( $_SERVER ['PHP_SELF'] ) == $key ? 'selected' : null;
 			$html .= "<a href='{$item['url']}'class='{$selected}'>{$item['text']}</a>\n";
 		}
-		$html .= "<a href='logout.php' class='logout'>Logout</a></div></nav>\n";
+		$html .= "<a href='../../controller/logout.php' class='logout'>Logout</a></div></nav>\n";
 		return $html;
 	}
 	public static function generateNav() {

@@ -3,6 +3,7 @@ session_start ();
 ?>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="css/style_root.css" type="text/css" />
 </head>
 <header>
@@ -16,18 +17,18 @@ if (! isset ( $_SESSION ['logged'] ) || $_SESSION ['status'] != 'root') {
 	if (isset ( $_SESSION ['status'] )) {
 		switch ($_SESSION ['status']) {
 			case 'teacher' :
-				$target = 'menu_teacher.php';
+				$target = '../teacher/menu_teacher.php';
 				break;
 			case 'student' :
-				$target = 'menu.php';
+				$target = '../student/menu.php';
 				break;
 		}
 	} else {
-		$target = 'index.php';
+		$target = '../index.php';
 	}
 	echo '<button id="retur" name="button" onclick="document.location.href=\'' . $target . '\'">Come back to Menu</button>';
 } else {
-require 'navb.php';
+require '../../controller/navb.php';
 echo navb::generateNav ();
 ?>
 

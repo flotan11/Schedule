@@ -3,7 +3,8 @@
 ?>
 <html>
 <head>
-<link rel="stylesheet" href="css/style_root.css" type="text/css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../../css/style_root.css" type="text/css"/>
 </head>
 <header>
 	<title>Meeting Plannifier</title>
@@ -16,18 +17,18 @@ if (! isset ( $_SESSION ['logged'] ) || $_SESSION ['status'] != 'root') {
 	if (isset ( $_SESSION ['status'] )) {
 		switch ($_SESSION ['status']) {
 			case 'teacher' :
-				$target = 'menu_teacher.php';
+				$target = '../teacher/menu_teacher.php';
 				break;
 			case 'student' :
-				$target = 'menu.php';
+				$target = '../student/menu.php';
 				break;
 		}
 	} else {
-		$target = 'index.php';
+		$target = '../index.php';
 	}
 	echo '<button id="retur" name="button" onclick="document.location.href=\'' . $target . '\'">Come back to Menu</button>';
 } else {
-	require 'navb.php';
+	require '../../controller/navb.php';
 	echo navb::generateNav();
 ?>
 
@@ -64,7 +65,7 @@ if (! isset ( $_SESSION ['logged'] ) || $_SESSION ['status'] != 'root') {
 ?>
 
 <table>
-	<form method="POST" action="checkInsert_root.php">
+	<form method="POST" action="../../controller/checkInsert_root.php">
 		<p>student_id : <input type="text" name="student_idstudent"/>
 		logincode : <input type="text" name="login_codestudent"/>
 		firstname : <input type="text" name="firstnamestudent"/>
@@ -87,7 +88,7 @@ if (! isset ( $_SESSION ['logged'] ) || $_SESSION ['status'] != 'root') {
 ?>
 
 <table>
-	<form method="POST" action="checkInsert_root.php">
+	<form method="POST" action="../../controller/checkInsert_root.php">
 		<p>teacher_id : <input type="text" name="teacher_idteacher"/>
 		logincode : <input type="text" name="logincodeteacher"/>
 		firstname : <input type="text" name="firstnameteacher"/>
@@ -109,7 +110,7 @@ if (! isset ( $_SESSION ['logged'] ) || $_SESSION ['status'] != 'root') {
 ?>
 
 <table>
-	<form method="POST" action="checkInsert_root.php">
+	<form method="POST" action="../../controller/checkInsert_root.php">
 		<p>event_name : <input type="text" name="event_namesubscription"/>
 		student_id : <input type="text" name="student_idsubscription"/>
 		date : <input type="date" name="datesubscription"/>
@@ -128,7 +129,7 @@ if (! isset ( $_SESSION ['logged'] ) || $_SESSION ['status'] != 'root') {
 ?>
 
 <table>
-	<form method="POST" action="checkInsert_root.php">
+	<form method="POST" action="../../controller/checkInsert_root.php">
 		<p>event_name : <input type="text" name="event_nameevent"/>
 		teacher_id : <input type="text" name="teacher_idevent"/>
 		startdate : <input type="date" name="startdateevent"/>

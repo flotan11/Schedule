@@ -24,11 +24,11 @@ try {
 	$conn->exec($sql2);
 	$conn->exec($sql1);
 	$conn->exec($sql3);
-	header('Location: menu_root.php');
+	header('Location: ../viewer/root/menu_root.php');
 }
 catch(PDOException $e)
 {
-	header('Location: menu_root.php');
+	header('Location: ../viewer/root/menu_root.php');
 }
 
 $conn = null;

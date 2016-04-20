@@ -4,9 +4,10 @@ session_start ();
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script src="jquery-2.2.3.js"></script>
-<script type="text/javascript" src="dtable.js"></script>
-<link rel="stylesheet" href="css/style.css" type="text/css" />
+<script type="text/javascript" src="../../controller/dtable.js"></script>
+<link rel="stylesheet" href="../../css/style.css" type="text/css" />
 </head>
 <header>
 	<title>Meeting Plannifier</title>
@@ -19,18 +20,18 @@ if (! isset ( $_SESSION ['logged'] ) || $_SESSION ['status'] != 'teacher') {
 	if (isset ( $_SESSION ['status'] )) {
 		switch ($_SESSION ['status']) {
 			case 'root' :
-				$target = 'menu_root.php';
+				$target = 'root/menu_root.php';
 				break;
 			case 'student' :
-				$target = 'menu.php';
+				$target = 'student/menu.php';
 				break;
 		}
 	} else {
-		$target = 'index.php';
+		$target = '../index.php';
 	}
 	echo '<button id="retur" name="button" onclick="document.location.href=\'' . $target . '\'">Come back to Menu</button>';
 } else {
-	require 'navb.php';
+	require '../../controller/navb.php';
 	echo navb::generateNav ();
 	try {
 		$bdd = new PDO ( 'mysql:host=home.spijkerman.nl;dbname=subs;charset=utf8', 'subs', 'sub564-A' );
@@ -101,7 +102,7 @@ if (! isset ( $_SESSION ['logged'] ) || $_SESSION ['status'] != 'teacher') {
 		</table>
 
 <?php 
-/*=====Création du header de l'e-mail
+/*=====Crï¿½ation du header de l'e-mail
 $header = "From: \"WeaponsB\"<weaponsb@mail.fr>".$passage_ligne;
 $header .= "Reply-to: \"WeaponsB\" <weaponsb@mail.fr>".$passage_ligne;
 $header .= "MIME-Version: 1.0".$passage_ligne;
