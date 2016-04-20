@@ -6,36 +6,49 @@
 	<title>Meeting Plannifier</title>
 </header>
 <body>
-<?php
-	require 'navb_root.php';
-	echo navb::generateNav();
-?>
-
 <table>
-
+<tr><td>
+	<img id="icon" src="img/avans.png" alt="AVANS Icon">
+</td><td>
 	<div id="presentation">
-	<p>	<h1><strong>Meeting Planifier</strong></h1>
-		<h1><strong>Root Menu.</strong></h1>
-	</p>
-	</div>
+		<h1><strong>Meeting Planifier</strong></h1>
+		<p>Root Menu.</p>
 		
-
+		
+	</div>
 	
 	
 </td></tr>
 </table>	
+
+<div id="barredenavigation">
+    <div id="onglet1">premier onglet
+        <div class="onglet">
+            <a href="insert_data.php">Insert data</a>
+            <a href="update_data.php" >Update data</a>
+            <a href="remove_data.php">Remove data</a>
+            <a href="select_data.php" >Display table</a>
+            <a href="index.php">Disconnect</a>
+        </div>
+    </div>
     
-    <form method="post" action="menu_root.php">
+    <form method="post" action="select_data.php">
+    <fieldset>
+        Rechercher un ouvrage par
         <select name="list">
-            <option value="no_value">Select table</option>
             <option value="subscription">Subscription</option>
             <option value="student">Student</option>
             <option value="event">Event</option>
             <option value="teacher">Teacher</option>
         </select>
+        <input type="text" name="rch" />
         <input type="submit" value="ok" name="ok" />
+    </fieldset>
 
 <?php
+echo "<table style='border: solid 1px black;'>";
+
+echo "<tr><th>event_title</th><th>teacher_id</th><th>startdate</th><th>endate</th><th>location</th><th>remarks</th></tr>";
 
 class TableRows extends RecursiveIteratorIterator { 
     function __construct($it) { 
@@ -43,7 +56,7 @@ class TableRows extends RecursiveIteratorIterator {
     }
 
     function current() {
-        return "<td style='width:300px;height:50px;text-align : center; border:2px solid black;background-color : white;'>" . parent::current(). "</td>";
+        return "<td style='width:150px;border:1px solid black;'>" . parent::current(). "</td>";
     }
 
     function beginChildren() { 
@@ -63,47 +76,33 @@ $dbname = "subs";
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    $stmt = $conn->prepare("SELECT * FROM rien"); 
+    
     if (isset($_POST['list'])){
-    echo "<div id='tables'>";
     if($_POST['list'] == 'subscription'){
-	echo "<br><table style='border: solid 3px black;background-color : #00ACEB;'>";
-	echo "<tr><th>event_name</th><th>student_id</th><th>date</th><th>time</th></tr>";
     $stmt = $conn->prepare("SELECT * FROM subscription"); 
     } elseif ($_POST['list'] == 'student'){
-	echo "<br><table style='border: solid 3px black;background-color : #00ACEB;'>";
-	echo "<tr><th>student_id</th><th>login_code</th><th>firstname</th><th>prefix</th><th>lastname</th><th>group</th><th>mail</th><th>team_name</th></tr>";
-    $stmt = $conn->prepare("SELECT * FROM student");
+    $stmt = $conn->prepare("SELECT * FROM student"); 	
     } elseif ($_POST['list'] == 'event'){
-	echo "<br><table style='border: solid 3px black;background-color : #00ACEB;'>";
-	echo "<tr><th>event_name</th><th>teacher_id</th><th>startdate</th><th>endate</th><th>location</th><th>remarks</th></tr>";
     $stmt = $conn->prepare("SELECT * FROM event"); 	
     } elseif ($_POST['list'] == 'teacher'){
-	echo "<br><table style='border: solid 3px black;background-color : #00ACEB;'>";
-   	echo "<tr><th>teacher_id</th><th>logincode</th><th>firstname</th><th>prefix</th><th>lastname</th><th>mail</th></tr>";
     $stmt = $conn->prepare("SELECT * FROM teacher"); 	
     }else {
-    $stmt = $conn->prepare("SELECT * FROM rien"); 
+     $stmt = $conn->prepare("SELECT * FROM event"); 	
     }
     }else{
+    	 $stmt = $conn->prepare("SELECT * FROM subscription"); 
     }
-     $stmt->execute();
-    
+    $stmt->execute();
+
     // set the resulting array to associative
-	$result = $stmt->setFetchMode(PDO::FETCH_ASSOC); 
-	foreach(new TableRows(new RecursiveArrayIterator($stmt->fetchAll())) as $k=>$v) { 
-    	echo $v;
+    $result = $stmt->setFetchMode(PDO::FETCH_ASSOC); 
+    foreach(new TableRows(new RecursiveArrayIterator($stmt->fetchAll())) as $k=>$v) { 
+        echo $v;
     }
-    echo "</div>";
 }
-	
 catch(PDOException $e) {
   //  echo "Error: " . $e->getMessage();
 }
 $conn = null;
 echo "</table>";
 ?>
-
-
-</body>
-</html>

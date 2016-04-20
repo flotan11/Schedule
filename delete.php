@@ -10,7 +10,7 @@ try {
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     // sql to delete a record
-    $sql = "DELETE FROM event WHERE event_title=15";
+    $sql = "DELETE FROM subscription WHERE student_id = '123456789'" ;
     // use exec() because no results are returned
     $conn->exec($sql);
     echo "Record deleted successfully";

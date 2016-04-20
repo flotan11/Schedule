@@ -32,6 +32,7 @@ Requirements
 Global:
 	-The website has a design with AVANS styles (colors,  pattern, ...)
 	-Teacher/Supervisor interfaces have a navbar to naviguate in pages.
+	-you may be disconnected from the site with the "log out" button situated in the navigation bar.
 Teacher:
    .menu_teacher.php:
 	-Teacher can naviguate in time if events length is superior to 5 days
@@ -51,7 +52,14 @@ Teacher:
 
 Student:
    .menu.php:
-	-Student has quickly access to General Schedule after log
-	-Student can choose to focus a precise event
+	- Student has quickly access to General Schedule after log
+	- Student can choose to focus a precise event
 Supervisor:
-	-Supervisor can do all basic SQL request by his interface
+	- Supervisor can do all basic SQL request by his interface
+	- Supervisor can display all tables with important informations which missing (example : teacher name when you display event table).
+	- Supervisor uses buttons to display each tables.
+	- Supervisor uses a button to select a table and fill in a quick form for insert data in a table.
+	- Supervisor can select a table with a button and a given for editing it.
+	- Supervisor can delete data in the display menu with a delete button next to the value.
+
+

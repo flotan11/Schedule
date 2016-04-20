@@ -1038,3 +1038,2433 @@ org.eclipse.jface.text.BadLocationException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+!SESSION 2016-04-08 13:15:23.849 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.php.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.php.product
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-08 13:20:36.139
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-08 13:23:35.604
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2016-04-11 08:41:35.378 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.php.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.php.product
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-11 08:46:50.020
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-11 08:49:50.444
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-11 08:51:21.657
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-11 09:18:02.946
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-11 09:18:16.013
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-11 09:18:23.350
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-11 09:19:34.322
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-11 09:52:01.176
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-11 09:54:26.614
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-11 09:55:27.960
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-11 09:55:30.543
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-11 09:55:30.858
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-11 10:05:35.509
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-11 10:07:54.539
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-11 10:08:14.643
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-11 10:18:58.427
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-11 10:19:00.488
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-11 10:24:40.576
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-11 10:33:23.332
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2016-04-11 12:10:11.902
+!MESSAGE null
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.wst.sse.core.internal.text.GenericPositionManager.addPosition(GenericPositionManager.java:84)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.addPosition(BasicStructuredDocument.java:870)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter.updatePresentation(SemanticHighlightingPresenter.java:471)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter$1.run(SemanticHighlightingPresenter.java:404)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-11 14:32:01.279
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.text 4 2 2016-04-11 14:35:39.798
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:110)
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:96)
+	at org.eclipse.jface.text.TextPresentation.<init>(TextPresentation.java:169)
+	at org.eclipse.jface.text.TextPresentation.<init>(TextPresentation.java:182)
+	at org.eclipse.php.internal.ui.editor.configuration.PHPStructuredPresentationReconciler.createPresentation(PHPStructuredPresentationReconciler.java:238)
+	at org.eclipse.wst.sse.ui.internal.provisional.style.StructuredPresentationReconciler.processDamage(StructuredPresentationReconciler.java:862)
+	at org.eclipse.wst.sse.ui.internal.provisional.style.StructuredPresentationReconciler.processRecordedDamages(StructuredPresentationReconciler.java:840)
+	at org.eclipse.wst.sse.ui.internal.provisional.style.StructuredPresentationReconciler$InternalListener.textChanged(StructuredPresentationReconciler.java:414)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2820)
+	at org.eclipse.jface.text.TextViewer$VisibleDocumentListener.documentChanged(TextViewer.java:401)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:769)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:736)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:721)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:796)
+	at org.eclipse.jface.text.projection.ProjectionDocument.fireDocumentChanged(ProjectionDocument.java:777)
+	at org.eclipse.jface.text.projection.ProjectionDocument.masterDocumentChanged(ProjectionDocument.java:746)
+	at org.eclipse.jface.text.projection.ProjectionDocumentManager.fireDocumentEvent(ProjectionDocumentManager.java:123)
+	at org.eclipse.jface.text.projection.ProjectionDocumentManager.documentChanged(ProjectionDocumentManager.java:131)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument._fireDocumentChanged(BasicStructuredDocument.java:460)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.fireStructuredDocumentEvent(BasicStructuredDocument.java:1202)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.internalReplaceText(BasicStructuredDocument.java:1979)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2419)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2404)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$2(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$3.run(JobSafeStructuredDocument.java:141)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:149)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replaceText(JobSafeStructuredDocument.java:144)
+	at org.eclipse.wst.sse.ui.internal.StructuredDocumentToTextAdapter.replaceTextRange(StructuredDocumentToTextAdapter.java:1187)
+	at org.eclipse.swt.custom.StyledText.modifyContent(StyledText.java:7172)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(StyledText.java:7986)
+	at org.eclipse.swt.custom.StyledText.doBackspace(StyledText.java:2269)
+	at org.eclipse.swt.custom.StyledText.invokeAction(StyledText.java:6980)
+	at org.eclipse.swt.custom.StyledText.handleKey(StyledText.java:5936)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5962)
+	at org.eclipse.swt.custom.StyledText$7.handleEvent(StyledText.java:5656)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1099)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1508)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4270)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4162)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4873)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2459)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3655)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.text 4 2 2016-04-11 14:35:46.984
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:110)
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:96)
+	at org.eclipse.jface.text.TextPresentation.<init>(TextPresentation.java:169)
+	at org.eclipse.jface.text.TextPresentation.<init>(TextPresentation.java:182)
+	at org.eclipse.php.internal.ui.editor.configuration.PHPStructuredPresentationReconciler.createPresentation(PHPStructuredPresentationReconciler.java:238)
+	at org.eclipse.wst.sse.ui.internal.provisional.style.StructuredPresentationReconciler.processDamage(StructuredPresentationReconciler.java:862)
+	at org.eclipse.wst.sse.ui.internal.provisional.style.StructuredPresentationReconciler.processRecordedDamages(StructuredPresentationReconciler.java:840)
+	at org.eclipse.wst.sse.ui.internal.provisional.style.StructuredPresentationReconciler$InternalListener.textChanged(StructuredPresentationReconciler.java:414)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2820)
+	at org.eclipse.jface.text.TextViewer$VisibleDocumentListener.documentChanged(TextViewer.java:401)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:769)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:736)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:721)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:796)
+	at org.eclipse.jface.text.projection.ProjectionDocument.fireDocumentChanged(ProjectionDocument.java:777)
+	at org.eclipse.jface.text.projection.ProjectionDocument.masterDocumentChanged(ProjectionDocument.java:746)
+	at org.eclipse.jface.text.projection.ProjectionDocumentManager.fireDocumentEvent(ProjectionDocumentManager.java:123)
+	at org.eclipse.jface.text.projection.ProjectionDocumentManager.documentChanged(ProjectionDocumentManager.java:131)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument._fireDocumentChanged(BasicStructuredDocument.java:460)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.fireStructuredDocumentEvent(BasicStructuredDocument.java:1202)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.internalReplaceText(BasicStructuredDocument.java:1979)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2419)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2404)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$2(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$3.run(JobSafeStructuredDocument.java:141)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:149)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replaceText(JobSafeStructuredDocument.java:144)
+	at org.eclipse.wst.sse.ui.internal.StructuredDocumentToTextAdapter.replaceTextRange(StructuredDocumentToTextAdapter.java:1187)
+	at org.eclipse.swt.custom.StyledText.modifyContent(StyledText.java:7172)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(StyledText.java:7986)
+	at org.eclipse.swt.custom.StyledText.doBackspace(StyledText.java:2269)
+	at org.eclipse.swt.custom.StyledText.invokeAction(StyledText.java:6980)
+	at org.eclipse.swt.custom.StyledText.handleKey(StyledText.java:5936)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5962)
+	at org.eclipse.swt.custom.StyledText$7.handleEvent(StyledText.java:5656)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1099)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1508)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4270)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4162)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4873)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2459)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3655)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-11 14:44:52.145
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-11 14:44:52.962
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-11 14:45:33.663
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-11 14:45:34.573
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-11 14:45:35.217
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-11 14:56:30.625
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-11 15:23:26.550
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-11 15:25:25.240
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2016-04-12 08:32:18.021 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.php.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.php.product
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-12 09:35:23.325
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2016-04-15 08:44:59.396 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.php.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.php.product
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2016-04-15 09:35:09.900
+!MESSAGE null
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.wst.sse.core.internal.text.GenericPositionManager.addPosition(GenericPositionManager.java:84)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.addPosition(BasicStructuredDocument.java:870)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter.updatePresentation(SemanticHighlightingPresenter.java:471)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter$1.run(SemanticHighlightingPresenter.java:404)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2016-04-15 09:52:24.942
+!MESSAGE null
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.wst.sse.core.internal.text.GenericPositionManager.addPosition(GenericPositionManager.java:84)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.addPosition(BasicStructuredDocument.java:870)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter.updatePresentation(SemanticHighlightingPresenter.java:471)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter$1.run(SemanticHighlightingPresenter.java:404)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2016-04-15 10:29:07.929
+!MESSAGE null
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.wst.sse.core.internal.text.GenericPositionManager.addPosition(GenericPositionManager.java:84)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.addPosition(BasicStructuredDocument.java:870)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter.updatePresentation(SemanticHighlightingPresenter.java:471)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter$1.run(SemanticHighlightingPresenter.java:404)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2016-04-15 10:29:19.172
+!MESSAGE null
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.wst.sse.core.internal.text.GenericPositionManager.addPosition(GenericPositionManager.java:84)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.addPosition(BasicStructuredDocument.java:870)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter.updatePresentation(SemanticHighlightingPresenter.java:471)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter$1.run(SemanticHighlightingPresenter.java:404)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2016-04-15 10:31:10.546
+!MESSAGE null
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.wst.sse.core.internal.text.GenericPositionManager.addPosition(GenericPositionManager.java:84)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.addPosition(BasicStructuredDocument.java:870)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter.updatePresentation(SemanticHighlightingPresenter.java:471)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter$1.run(SemanticHighlightingPresenter.java:404)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2016-04-15 10:34:11.342
+!MESSAGE null
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.wst.sse.core.internal.text.GenericPositionManager.addPosition(GenericPositionManager.java:84)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.addPosition(BasicStructuredDocument.java:870)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter.updatePresentation(SemanticHighlightingPresenter.java:471)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter$1.run(SemanticHighlightingPresenter.java:404)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2016-04-15 10:38:55.278
+!MESSAGE null
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.wst.sse.core.internal.text.GenericPositionManager.addPosition(GenericPositionManager.java:84)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.addPosition(BasicStructuredDocument.java:870)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter.updatePresentation(SemanticHighlightingPresenter.java:471)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter$1.run(SemanticHighlightingPresenter.java:404)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+!SESSION 2016-04-18 08:53:41.752 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.php.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.php.product
+
+!ENTRY org.eclipse.text 4 2 2016-04-18 09:08:53.591
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:110)
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:96)
+	at org.eclipse.jface.text.TextPresentation.<init>(TextPresentation.java:169)
+	at org.eclipse.jface.text.TextPresentation.<init>(TextPresentation.java:182)
+	at org.eclipse.php.internal.ui.editor.configuration.PHPStructuredPresentationReconciler.createPresentation(PHPStructuredPresentationReconciler.java:238)
+	at org.eclipse.wst.sse.ui.internal.provisional.style.StructuredPresentationReconciler.processDamage(StructuredPresentationReconciler.java:862)
+	at org.eclipse.wst.sse.ui.internal.provisional.style.StructuredPresentationReconciler.processRecordedDamages(StructuredPresentationReconciler.java:840)
+	at org.eclipse.wst.sse.ui.internal.provisional.style.StructuredPresentationReconciler$InternalListener.textChanged(StructuredPresentationReconciler.java:414)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2820)
+	at org.eclipse.jface.text.TextViewer$VisibleDocumentListener.documentChanged(TextViewer.java:401)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:769)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:736)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:721)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:796)
+	at org.eclipse.jface.text.projection.ProjectionDocument.fireDocumentChanged(ProjectionDocument.java:777)
+	at org.eclipse.jface.text.projection.ProjectionDocument.masterDocumentChanged(ProjectionDocument.java:746)
+	at org.eclipse.jface.text.projection.ProjectionDocumentManager.fireDocumentEvent(ProjectionDocumentManager.java:123)
+	at org.eclipse.jface.text.projection.ProjectionDocumentManager.documentChanged(ProjectionDocumentManager.java:131)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument._fireDocumentChanged(BasicStructuredDocument.java:460)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.fireStructuredDocumentEvent(BasicStructuredDocument.java:1202)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.internalReplaceText(BasicStructuredDocument.java:1979)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2419)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2404)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$2(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$3.run(JobSafeStructuredDocument.java:141)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:149)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replaceText(JobSafeStructuredDocument.java:144)
+	at org.eclipse.wst.sse.ui.internal.StructuredDocumentToTextAdapter.replaceTextRange(StructuredDocumentToTextAdapter.java:1187)
+	at org.eclipse.swt.custom.StyledText.modifyContent(StyledText.java:7172)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(StyledText.java:7986)
+	at org.eclipse.swt.custom.StyledText.doBackspace(StyledText.java:2269)
+	at org.eclipse.swt.custom.StyledText.invokeAction(StyledText.java:6980)
+	at org.eclipse.swt.custom.StyledText.handleKey(StyledText.java:5936)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5962)
+	at org.eclipse.swt.custom.StyledText$7.handleEvent(StyledText.java:5656)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1099)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1508)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4270)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4162)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4873)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2459)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3655)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.text 4 2 2016-04-18 09:08:58.013
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:110)
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:96)
+	at org.eclipse.jface.text.TextPresentation.<init>(TextPresentation.java:169)
+	at org.eclipse.jface.text.TextPresentation.<init>(TextPresentation.java:182)
+	at org.eclipse.php.internal.ui.editor.configuration.PHPStructuredPresentationReconciler.createPresentation(PHPStructuredPresentationReconciler.java:238)
+	at org.eclipse.wst.sse.ui.internal.provisional.style.StructuredPresentationReconciler.processDamage(StructuredPresentationReconciler.java:862)
+	at org.eclipse.wst.sse.ui.internal.provisional.style.StructuredPresentationReconciler.processRecordedDamages(StructuredPresentationReconciler.java:840)
+	at org.eclipse.wst.sse.ui.internal.provisional.style.StructuredPresentationReconciler$InternalListener.textChanged(StructuredPresentationReconciler.java:414)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2820)
+	at org.eclipse.jface.text.TextViewer$VisibleDocumentListener.documentChanged(TextViewer.java:401)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:769)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:736)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:721)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:796)
+	at org.eclipse.jface.text.projection.ProjectionDocument.fireDocumentChanged(ProjectionDocument.java:777)
+	at org.eclipse.jface.text.projection.ProjectionDocument.masterDocumentChanged(ProjectionDocument.java:746)
+	at org.eclipse.jface.text.projection.ProjectionDocumentManager.fireDocumentEvent(ProjectionDocumentManager.java:123)
+	at org.eclipse.jface.text.projection.ProjectionDocumentManager.documentChanged(ProjectionDocumentManager.java:131)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument._fireDocumentChanged(BasicStructuredDocument.java:460)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.fireStructuredDocumentEvent(BasicStructuredDocument.java:1202)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.internalReplaceText(BasicStructuredDocument.java:1979)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2419)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2404)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$2(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$3.run(JobSafeStructuredDocument.java:141)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:149)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replaceText(JobSafeStructuredDocument.java:144)
+	at org.eclipse.wst.sse.ui.internal.StructuredDocumentToTextAdapter.replaceTextRange(StructuredDocumentToTextAdapter.java:1187)
+	at org.eclipse.swt.custom.StyledText.modifyContent(StyledText.java:7172)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(StyledText.java:7986)
+	at org.eclipse.swt.custom.StyledText.doBackspace(StyledText.java:2269)
+	at org.eclipse.swt.custom.StyledText.invokeAction(StyledText.java:6980)
+	at org.eclipse.swt.custom.StyledText.handleKey(StyledText.java:5936)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5962)
+	at org.eclipse.swt.custom.StyledText$7.handleEvent(StyledText.java:5656)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1099)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1508)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4270)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4162)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4873)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2459)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3655)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.jface.text 4 0 2016-04-18 09:17:57.753
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocumentRegion.getStartOffset(BasicStructuredDocumentRegion.java:277)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocumentRegion.getText(BasicStructuredDocumentRegion.java:304)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeTagAttValueHelp(XMLTagInfoHoverProcessor.java:134)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeRegionHelp(XMLTagInfoHoverProcessor.java:111)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeHoverHelp(XMLTagInfoHoverProcessor.java:86)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.getHoverInfo(XMLTagInfoHoverProcessor.java:257)
+	at org.eclipse.wst.sse.ui.internal.taginfo.BestMatchHover.getHoverInfo(BestMatchHover.java:90)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+
+!ENTRY org.eclipse.jface.text 4 0 2016-04-18 09:17:58.892
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocumentRegion.getStartOffset(BasicStructuredDocumentRegion.java:277)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocumentRegion.getText(BasicStructuredDocumentRegion.java:304)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeTagAttValueHelp(XMLTagInfoHoverProcessor.java:134)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeRegionHelp(XMLTagInfoHoverProcessor.java:111)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeHoverHelp(XMLTagInfoHoverProcessor.java:86)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.getHoverInfo(XMLTagInfoHoverProcessor.java:257)
+	at org.eclipse.wst.sse.ui.internal.taginfo.BestMatchHover.getHoverInfo(BestMatchHover.java:90)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+
+!ENTRY org.eclipse.wst.xml.core 4 4 2016-04-18 09:18:14.785
+!MESSAGE IStructuredDocumentRegion management failed.
+!STACK 0
+org.eclipse.wst.xml.core.internal.document.StructuredDocumentRegionManagementException: IStructuredDocumentRegion management failed.
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.removeStructuredDocumentRegion(XMLModelParser.java:2265)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.replaceStructuredDocumentRegions(XMLModelParser.java:2339)
+	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.nodesReplaced(DOMModelImpl.java:671)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument._fireEvent(BasicStructuredDocument.java:600)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.fireStructuredDocumentEvent(BasicStructuredDocument.java:1198)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.internalReplaceText(BasicStructuredDocument.java:1979)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2419)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2404)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$2(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$3.run(JobSafeStructuredDocument.java:141)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:149)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replaceText(JobSafeStructuredDocument.java:144)
+	at org.eclipse.wst.sse.ui.internal.StructuredDocumentToTextAdapter.replaceTextRange(StructuredDocumentToTextAdapter.java:1187)
+	at org.eclipse.swt.custom.StyledText.modifyContent(StyledText.java:7172)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(StyledText.java:7986)
+	at org.eclipse.swt.custom.StyledText.doBackspace(StyledText.java:2245)
+	at org.eclipse.swt.custom.StyledText.invokeAction(StyledText.java:6980)
+	at org.eclipse.swt.custom.StyledText.handleKey(StyledText.java:5936)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5962)
+	at org.eclipse.swt.custom.StyledText$7.handleEvent(StyledText.java:5656)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1099)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1508)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4270)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4162)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4873)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2459)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3655)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-18 09:59:57.906
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-18 10:00:01.131
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-18 10:00:48.239
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-18 10:12:00.947
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-18 11:19:26.445
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-18 11:19:54.962
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2016-04-18 13:12:39.263 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.php.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.php.product
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2016-04-18 14:14:14.191
+!MESSAGE null
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.wst.sse.core.internal.text.GenericPositionManager.addPosition(GenericPositionManager.java:84)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.addPosition(BasicStructuredDocument.java:870)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter.updatePresentation(SemanticHighlightingPresenter.java:471)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter$1.run(SemanticHighlightingPresenter.java:404)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-18 14:33:44.172
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-18 14:33:44.777
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-18 14:33:46.222
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-18 14:35:24.836
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-18 14:35:28.841
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2016-04-18 14:53:14.953
+!MESSAGE null
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.wst.sse.core.internal.text.GenericPositionManager.addPosition(GenericPositionManager.java:84)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.addPosition(BasicStructuredDocument.java:870)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter.updatePresentation(SemanticHighlightingPresenter.java:471)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter$1.run(SemanticHighlightingPresenter.java:404)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-04-18 15:05:51.670
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2016-04-19 08:39:54.349 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.php.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.php.product
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2016-04-19 08:53:15.959
+!MESSAGE null
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.wst.sse.core.internal.text.GenericPositionManager.addPosition(GenericPositionManager.java:84)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.addPosition(BasicStructuredDocument.java:870)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter.updatePresentation(SemanticHighlightingPresenter.java:471)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter$1.run(SemanticHighlightingPresenter.java:404)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2016-04-19 09:15:08.830
+!MESSAGE null
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.wst.sse.core.internal.text.GenericPositionManager.addPosition(GenericPositionManager.java:84)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.addPosition(BasicStructuredDocument.java:870)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter.updatePresentation(SemanticHighlightingPresenter.java:471)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter$1.run(SemanticHighlightingPresenter.java:404)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.wst.sse.core 4 4 2016-04-19 09:33:34.498
+!MESSAGE assertion failed: 
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:110)
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:96)
+	at org.eclipse.jface.text.TextPresentation.<init>(TextPresentation.java:169)
+	at org.eclipse.jface.text.TextPresentation.<init>(TextPresentation.java:182)
+	at org.eclipse.php.internal.ui.editor.configuration.PHPStructuredPresentationReconciler.createPresentation(PHPStructuredPresentationReconciler.java:238)
+	at org.eclipse.wst.sse.ui.internal.provisional.style.StructuredPresentationReconciler.processDamage(StructuredPresentationReconciler.java:862)
+	at org.eclipse.wst.sse.ui.internal.provisional.style.StructuredPresentationReconciler.processRecordedDamages(StructuredPresentationReconciler.java:840)
+	at org.eclipse.wst.sse.ui.internal.provisional.style.StructuredPresentationReconciler$InternalListener.textChanged(StructuredPresentationReconciler.java:414)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2820)
+	at org.eclipse.jface.text.TextViewer$VisibleDocumentListener.documentChanged(TextViewer.java:401)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument._fireDocumentChanged(BasicStructuredDocument.java:460)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.fireStructuredDocumentEvent(BasicStructuredDocument.java:1202)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.internalReplaceText(BasicStructuredDocument.java:1979)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2419)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2404)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$2(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$3.run(JobSafeStructuredDocument.java:141)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:149)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replaceText(JobSafeStructuredDocument.java:144)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replace(BasicStructuredDocument.java:2364)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$0(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$1.run(JobSafeStructuredDocument.java:103)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:149)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replace(JobSafeStructuredDocument.java:106)
+	at org.eclipse.text.edits.DeleteEdit.performDocumentUpdating(DeleteEdit.java:64)
+	at org.eclipse.text.edits.TextEdit.traverseDocumentUpdating(TextEdit.java:917)
+	at org.eclipse.text.edits.TextEditProcessor.executeDo(TextEditProcessor.java:194)
+	at org.eclipse.text.edits.TextEdit.dispatchPerformEdits(TextEdit.java:739)
+	at org.eclipse.text.edits.TextEditProcessor.performEdits(TextEditProcessor.java:156)
+	at org.eclipse.text.edits.TextEdit.apply(TextEdit.java:711)
+	at org.eclipse.jface.internal.text.SelectionProcessor.doDelete(SelectionProcessor.java:641)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.deleteSelection(ProjectionViewer.java:1641)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.copyToClipboard(ProjectionViewer.java:1625)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.doOperation(ProjectionViewer.java:1472)
+	at org.eclipse.wst.sse.ui.internal.StructuredTextViewer.doOperation(StructuredTextViewer.java:432)
+	at org.eclipse.php.internal.ui.editor.PHPStructuredTextViewer.doOperation(PHPStructuredTextViewer.java:305)
+	at org.eclipse.ui.texteditor.TextOperationAction$1.run(TextOperationAction.java:131)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.texteditor.TextOperationAction.run(TextOperationAction.java:129)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.ui.commands.ActionHandler.execute(ActionHandler.java:185)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerWrapper.execute(LegacyHandlerWrapper.java:109)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(WorkbenchKeyboard.java:468)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(WorkbenchKeyboard.java:786)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(WorkbenchKeyboard.java:885)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.filterKeySequenceBindings(WorkbenchKeyboard.java:567)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.access$3(WorkbenchKeyboard.java:508)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard$KeyDownFilter.handleEvent(WorkbenchKeyboard.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1253)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1099)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1508)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4270)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4162)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4873)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2459)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3655)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.wst.sse.core 4 4 2016-04-19 09:34:37.063
+!MESSAGE assertion failed: 
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:110)
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:96)
+	at org.eclipse.jface.text.TextPresentation.<init>(TextPresentation.java:169)
+	at org.eclipse.jface.text.TextPresentation.<init>(TextPresentation.java:182)
+	at org.eclipse.php.internal.ui.editor.configuration.PHPStructuredPresentationReconciler.createPresentation(PHPStructuredPresentationReconciler.java:238)
+	at org.eclipse.wst.sse.ui.internal.provisional.style.StructuredPresentationReconciler.processDamage(StructuredPresentationReconciler.java:862)
+	at org.eclipse.wst.sse.ui.internal.provisional.style.StructuredPresentationReconciler.processRecordedDamages(StructuredPresentationReconciler.java:840)
+	at org.eclipse.wst.sse.ui.internal.provisional.style.StructuredPresentationReconciler$InternalListener.textChanged(StructuredPresentationReconciler.java:414)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2820)
+	at org.eclipse.jface.text.TextViewer$VisibleDocumentListener.documentChanged(TextViewer.java:401)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument._fireDocumentChanged(BasicStructuredDocument.java:460)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.fireStructuredDocumentEvent(BasicStructuredDocument.java:1202)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.internalReplaceText(BasicStructuredDocument.java:1979)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2419)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2404)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$2(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$3.run(JobSafeStructuredDocument.java:141)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:149)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replaceText(JobSafeStructuredDocument.java:144)
+	at org.eclipse.wst.sse.ui.internal.StructuredDocumentToTextAdapter.replaceTextRange(StructuredDocumentToTextAdapter.java:1187)
+	at org.eclipse.swt.custom.StyledText.modifyContent(StyledText.java:7172)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(StyledText.java:7986)
+	at org.eclipse.swt.custom.StyledText.doBackspace(StyledText.java:2245)
+	at org.eclipse.swt.custom.StyledText.invokeAction(StyledText.java:6980)
+	at org.eclipse.swt.custom.StyledText.handleKey(StyledText.java:5936)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5962)
+	at org.eclipse.swt.custom.StyledText$7.handleEvent(StyledText.java:5656)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1099)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1508)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4270)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4162)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4873)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2459)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3655)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.wst.sse.core 4 4 2016-04-19 09:50:34.263
+!MESSAGE assertion failed: 
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:110)
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:96)
+	at org.eclipse.jface.text.TextPresentation.<init>(TextPresentation.java:169)
+	at org.eclipse.jface.text.TextPresentation.<init>(TextPresentation.java:182)
+	at org.eclipse.php.internal.ui.editor.configuration.PHPStructuredPresentationReconciler.createPresentation(PHPStructuredPresentationReconciler.java:238)
+	at org.eclipse.wst.sse.ui.internal.provisional.style.StructuredPresentationReconciler.processDamage(StructuredPresentationReconciler.java:862)
+	at org.eclipse.wst.sse.ui.internal.provisional.style.StructuredPresentationReconciler.processRecordedDamages(StructuredPresentationReconciler.java:840)
+	at org.eclipse.wst.sse.ui.internal.provisional.style.StructuredPresentationReconciler$InternalListener.textChanged(StructuredPresentationReconciler.java:414)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2820)
+	at org.eclipse.jface.text.TextViewer$VisibleDocumentListener.documentChanged(TextViewer.java:401)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument._fireDocumentChanged(BasicStructuredDocument.java:460)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.fireStructuredDocumentEvent(BasicStructuredDocument.java:1202)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.internalReplaceText(BasicStructuredDocument.java:1979)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2419)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2404)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$2(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$3.run(JobSafeStructuredDocument.java:141)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:149)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replaceText(JobSafeStructuredDocument.java:144)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replace(BasicStructuredDocument.java:2364)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$0(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$1.run(JobSafeStructuredDocument.java:103)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:149)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replace(JobSafeStructuredDocument.java:106)
+	at org.eclipse.text.edits.DeleteEdit.performDocumentUpdating(DeleteEdit.java:64)
+	at org.eclipse.text.edits.TextEdit.traverseDocumentUpdating(TextEdit.java:917)
+	at org.eclipse.text.edits.TextEditProcessor.executeDo(TextEditProcessor.java:194)
+	at org.eclipse.text.edits.TextEdit.dispatchPerformEdits(TextEdit.java:739)
+	at org.eclipse.text.edits.TextEditProcessor.performEdits(TextEditProcessor.java:156)
+	at org.eclipse.text.edits.TextEdit.apply(TextEdit.java:711)
+	at org.eclipse.jface.internal.text.SelectionProcessor.doDelete(SelectionProcessor.java:641)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.deleteSelection(ProjectionViewer.java:1641)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.copyToClipboard(ProjectionViewer.java:1625)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.doOperation(ProjectionViewer.java:1472)
+	at org.eclipse.wst.sse.ui.internal.StructuredTextViewer.doOperation(StructuredTextViewer.java:432)
+	at org.eclipse.php.internal.ui.editor.PHPStructuredTextViewer.doOperation(PHPStructuredTextViewer.java:305)
+	at org.eclipse.ui.texteditor.TextOperationAction$1.run(TextOperationAction.java:131)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.texteditor.TextOperationAction.run(TextOperationAction.java:129)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.ui.commands.ActionHandler.execute(ActionHandler.java:185)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerWrapper.execute(LegacyHandlerWrapper.java:109)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(WorkbenchKeyboard.java:468)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(WorkbenchKeyboard.java:786)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(WorkbenchKeyboard.java:885)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.filterKeySequenceBindings(WorkbenchKeyboard.java:567)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.access$3(WorkbenchKeyboard.java:508)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard$KeyDownFilter.handleEvent(WorkbenchKeyboard.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1253)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1099)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1508)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4270)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4162)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4873)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2459)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3655)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2016-04-19 09:58:55.753
+!MESSAGE null
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.wst.sse.core.internal.text.GenericPositionManager.addPosition(GenericPositionManager.java:84)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.addPosition(BasicStructuredDocument.java:870)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter.updatePresentation(SemanticHighlightingPresenter.java:471)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter$1.run(SemanticHighlightingPresenter.java:404)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2016-04-19 10:00:42.387
+!MESSAGE null
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.wst.sse.core.internal.text.GenericPositionManager.addPosition(GenericPositionManager.java:84)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.addPosition(BasicStructuredDocument.java:870)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter.updatePresentation(SemanticHighlightingPresenter.java:471)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter$1.run(SemanticHighlightingPresenter.java:404)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2016-04-19 10:01:45.566
+!MESSAGE null
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.wst.sse.core.internal.text.GenericPositionManager.addPosition(GenericPositionManager.java:84)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.addPosition(BasicStructuredDocument.java:870)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter.updatePresentation(SemanticHighlightingPresenter.java:471)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter$1.run(SemanticHighlightingPresenter.java:404)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2016-04-19 10:02:00.535
+!MESSAGE null
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.wst.sse.core.internal.text.GenericPositionManager.addPosition(GenericPositionManager.java:84)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.addPosition(BasicStructuredDocument.java:870)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter.updatePresentation(SemanticHighlightingPresenter.java:471)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter$1.run(SemanticHighlightingPresenter.java:404)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2016-04-19 10:05:42.188
+!MESSAGE null
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.wst.sse.core.internal.text.GenericPositionManager.addPosition(GenericPositionManager.java:84)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.addPosition(BasicStructuredDocument.java:870)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter.updatePresentation(SemanticHighlightingPresenter.java:471)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter$1.run(SemanticHighlightingPresenter.java:404)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2016-04-19 10:07:01.708
+!MESSAGE null
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.wst.sse.core.internal.text.GenericPositionManager.addPosition(GenericPositionManager.java:84)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.addPosition(BasicStructuredDocument.java:870)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter.updatePresentation(SemanticHighlightingPresenter.java:471)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter$1.run(SemanticHighlightingPresenter.java:404)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2016-04-19 10:16:21.953
+!MESSAGE null
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.wst.sse.core.internal.text.GenericPositionManager.addPosition(GenericPositionManager.java:84)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.addPosition(BasicStructuredDocument.java:870)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter.updatePresentation(SemanticHighlightingPresenter.java:471)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter$1.run(SemanticHighlightingPresenter.java:404)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2016-04-19 10:16:23.901
+!MESSAGE null
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.wst.sse.core.internal.text.GenericPositionManager.addPosition(GenericPositionManager.java:84)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.addPosition(BasicStructuredDocument.java:870)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter.updatePresentation(SemanticHighlightingPresenter.java:471)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter$1.run(SemanticHighlightingPresenter.java:404)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.wst.xml.core 4 4 2016-04-19 10:32:00.589
+!MESSAGE IStructuredDocumentRegion management failed.
+!STACK 0
+org.eclipse.wst.xml.core.internal.document.StructuredDocumentRegionManagementException: IStructuredDocumentRegion management failed.
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.removeStructuredDocumentRegion(XMLModelParser.java:2222)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.replaceStructuredDocumentRegions(XMLModelParser.java:2339)
+	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.nodesReplaced(DOMModelImpl.java:671)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument._fireEvent(BasicStructuredDocument.java:600)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.fireStructuredDocumentEvent(BasicStructuredDocument.java:1198)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.internalReplaceText(BasicStructuredDocument.java:1979)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2419)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2404)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$2(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$3.run(JobSafeStructuredDocument.java:141)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:149)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replaceText(JobSafeStructuredDocument.java:144)
+	at org.eclipse.wst.sse.ui.internal.StructuredDocumentToTextAdapter.replaceTextRange(StructuredDocumentToTextAdapter.java:1187)
+	at org.eclipse.swt.custom.StyledText.modifyContent(StyledText.java:7172)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(StyledText.java:7986)
+	at org.eclipse.swt.custom.StyledText.doBackspace(StyledText.java:2269)
+	at org.eclipse.swt.custom.StyledText.invokeAction(StyledText.java:6980)
+	at org.eclipse.swt.custom.StyledText.handleKey(StyledText.java:5936)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5962)
+	at org.eclipse.swt.custom.StyledText$7.handleEvent(StyledText.java:5656)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1099)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1508)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4270)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4162)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4873)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2459)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3655)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2016-04-19 10:41:55.840
+!MESSAGE null
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.wst.sse.core.internal.text.GenericPositionManager.addPosition(GenericPositionManager.java:84)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.addPosition(BasicStructuredDocument.java:870)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter.updatePresentation(SemanticHighlightingPresenter.java:471)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter$1.run(SemanticHighlightingPresenter.java:404)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2016-04-19 10:42:07.827
+!MESSAGE null
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.wst.sse.core.internal.text.GenericPositionManager.addPosition(GenericPositionManager.java:84)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.addPosition(BasicStructuredDocument.java:870)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter.updatePresentation(SemanticHighlightingPresenter.java:471)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter$1.run(SemanticHighlightingPresenter.java:404)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2016-04-19 10:42:08.030
+!MESSAGE null
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.wst.sse.core.internal.text.GenericPositionManager.addPosition(GenericPositionManager.java:84)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.addPosition(BasicStructuredDocument.java:870)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter.updatePresentation(SemanticHighlightingPresenter.java:471)
+	at org.eclipse.wst.sse.ui.internal.style.SemanticHighlightingPresenter$1.run(SemanticHighlightingPresenter.java:404)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+!SESSION 2016-04-19 13:22:04.664 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.php.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.php.product
+
+!ENTRY org.eclipse.osgi 4 0 2016-04-19 13:22:08.720
+!MESSAGE An error occurred while automatically activating bundle org.eclipse.core.resources (46).
+!STACK 0
+org.osgi.framework.BundleException: Exception in org.eclipse.core.resources.ResourcesPlugin.start() of bundle org.eclipse.core.resources.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:806)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:370)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:284)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:466)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:116)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Incompatible file format. Workspace was saved with an incompatible version: 0.
+	at org.eclipse.core.internal.resources.WorkspaceTreeReader.getReader(WorkspaceTreeReader.java:58)
+	at org.eclipse.core.internal.resources.WorkspaceTreeReader.getReader(WorkspaceTreeReader.java:66)
+	at org.eclipse.core.internal.resources.SaveManager.restoreTree(SaveManager.java:978)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:665)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1503)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2134)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:1883)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:406)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	... 28 more
+Root exception:
+org.eclipse.core.internal.resources.ResourceException: Incompatible file format. Workspace was saved with an incompatible version: 0.
+	at org.eclipse.core.internal.resources.WorkspaceTreeReader.getReader(WorkspaceTreeReader.java:58)
+	at org.eclipse.core.internal.resources.WorkspaceTreeReader.getReader(WorkspaceTreeReader.java:66)
+	at org.eclipse.core.internal.resources.SaveManager.restoreTree(SaveManager.java:978)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:665)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1503)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2134)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:1883)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:406)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:370)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:284)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:466)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:116)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.osgi 4 0 2016-04-19 13:22:08.751
+!MESSAGE Application error
+!STACK 1
+java.lang.NoClassDefFoundError: org/eclipse/core/resources/IContainer
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:116)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+Caused by: org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter$TerminatingClassNotFoundException: An error occurred while automatically activating bundle org.eclipse.core.resources (46).
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:121)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:466)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 13 more
+Caused by: org.osgi.framework.BundleException: Exception in org.eclipse.core.resources.ResourcesPlugin.start() of bundle org.eclipse.core.resources.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:806)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:370)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:284)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	... 22 more
+Caused by: org.eclipse.core.internal.resources.ResourceException: Incompatible file format. Workspace was saved with an incompatible version: 0.
+	at org.eclipse.core.internal.resources.WorkspaceTreeReader.getReader(WorkspaceTreeReader.java:58)
+	at org.eclipse.core.internal.resources.WorkspaceTreeReader.getReader(WorkspaceTreeReader.java:66)
+	at org.eclipse.core.internal.resources.SaveManager.restoreTree(SaveManager.java:978)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:665)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1503)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2134)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:1883)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:406)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	... 28 more
+!SESSION 2016-04-19 13:22:40.468 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.php.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.php.product
+
+!ENTRY org.eclipse.osgi 4 0 2016-04-19 13:22:43.354
+!MESSAGE An error occurred while automatically activating bundle org.eclipse.core.resources (46).
+!STACK 0
+org.osgi.framework.BundleException: Exception in org.eclipse.core.resources.ResourcesPlugin.start() of bundle org.eclipse.core.resources.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:806)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:370)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:284)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:466)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:116)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Incompatible file format. Workspace was saved with an incompatible version: 0.
+	at org.eclipse.core.internal.resources.WorkspaceTreeReader.getReader(WorkspaceTreeReader.java:58)
+	at org.eclipse.core.internal.resources.WorkspaceTreeReader.getReader(WorkspaceTreeReader.java:66)
+	at org.eclipse.core.internal.resources.SaveManager.restoreTree(SaveManager.java:978)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:665)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1503)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2134)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:1883)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:406)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	... 28 more
+Root exception:
+org.eclipse.core.internal.resources.ResourceException: Incompatible file format. Workspace was saved with an incompatible version: 0.
+	at org.eclipse.core.internal.resources.WorkspaceTreeReader.getReader(WorkspaceTreeReader.java:58)
+	at org.eclipse.core.internal.resources.WorkspaceTreeReader.getReader(WorkspaceTreeReader.java:66)
+	at org.eclipse.core.internal.resources.SaveManager.restoreTree(SaveManager.java:978)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:665)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1503)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2134)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:1883)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:406)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:370)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:284)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:466)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:116)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.osgi 4 0 2016-04-19 13:22:43.371
+!MESSAGE Application error
+!STACK 1
+java.lang.NoClassDefFoundError: org/eclipse/core/resources/IContainer
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:116)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+Caused by: org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter$TerminatingClassNotFoundException: An error occurred while automatically activating bundle org.eclipse.core.resources (46).
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:121)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:466)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 13 more
+Caused by: org.osgi.framework.BundleException: Exception in org.eclipse.core.resources.ResourcesPlugin.start() of bundle org.eclipse.core.resources.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:806)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:370)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:284)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	... 22 more
+Caused by: org.eclipse.core.internal.resources.ResourceException: Incompatible file format. Workspace was saved with an incompatible version: 0.
+	at org.eclipse.core.internal.resources.WorkspaceTreeReader.getReader(WorkspaceTreeReader.java:58)
+	at org.eclipse.core.internal.resources.WorkspaceTreeReader.getReader(WorkspaceTreeReader.java:66)
+	at org.eclipse.core.internal.resources.SaveManager.restoreTree(SaveManager.java:978)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:665)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1503)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2134)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:1883)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:406)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	... 28 more
+!SESSION 2016-04-19 13:23:16.845 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.php.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.php.product
+
+!ENTRY org.eclipse.osgi 4 0 2016-04-19 13:23:20.314
+!MESSAGE An error occurred while automatically activating bundle org.eclipse.core.resources (46).
+!STACK 0
+org.osgi.framework.BundleException: Exception in org.eclipse.core.resources.ResourcesPlugin.start() of bundle org.eclipse.core.resources.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:806)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:370)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:284)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:466)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:116)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Incompatible file format. Workspace was saved with an incompatible version: 0.
+	at org.eclipse.core.internal.resources.WorkspaceTreeReader.getReader(WorkspaceTreeReader.java:58)
+	at org.eclipse.core.internal.resources.WorkspaceTreeReader.getReader(WorkspaceTreeReader.java:66)
+	at org.eclipse.core.internal.resources.SaveManager.restoreTree(SaveManager.java:978)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:665)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1503)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2134)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:1883)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:406)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	... 28 more
+Root exception:
+org.eclipse.core.internal.resources.ResourceException: Incompatible file format. Workspace was saved with an incompatible version: 0.
+	at org.eclipse.core.internal.resources.WorkspaceTreeReader.getReader(WorkspaceTreeReader.java:58)
+	at org.eclipse.core.internal.resources.WorkspaceTreeReader.getReader(WorkspaceTreeReader.java:66)
+	at org.eclipse.core.internal.resources.SaveManager.restoreTree(SaveManager.java:978)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:665)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1503)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2134)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:1883)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:406)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:370)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:284)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:466)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:116)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.osgi 4 0 2016-04-19 13:23:20.326
+!MESSAGE Application error
+!STACK 1
+java.lang.NoClassDefFoundError: org/eclipse/core/resources/IContainer
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:116)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+Caused by: org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter$TerminatingClassNotFoundException: An error occurred while automatically activating bundle org.eclipse.core.resources (46).
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:121)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:466)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 13 more
+Caused by: org.osgi.framework.BundleException: Exception in org.eclipse.core.resources.ResourcesPlugin.start() of bundle org.eclipse.core.resources.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:806)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:370)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:284)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	... 22 more
+Caused by: org.eclipse.core.internal.resources.ResourceException: Incompatible file format. Workspace was saved with an incompatible version: 0.
+	at org.eclipse.core.internal.resources.WorkspaceTreeReader.getReader(WorkspaceTreeReader.java:58)
+	at org.eclipse.core.internal.resources.WorkspaceTreeReader.getReader(WorkspaceTreeReader.java:66)
+	at org.eclipse.core.internal.resources.SaveManager.restoreTree(SaveManager.java:978)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:665)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1503)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2134)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:1883)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:406)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	... 28 more

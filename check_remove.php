@@ -8,27 +8,21 @@ try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
     // set the PDO error mode to exception
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-    // sql to create table
-
- $sql ="CREATE table subscription(
-     event_name VARCHAR (30) NOT NULL,
-     student_id INT (7) NOT NULL,
-     date date NOT NULL,
-     time date NOT NULL,
-     CONSTRAINT pk_event PRIMARY KEY (event_name,student_id)
-	 );" ;
-
-//   $sql = "DROP TABLE student";
     
-
+    
+    $sql = "DELETE FROM subscription WHERE event_number=".$_POST['event_number']."";
+    
     // use exec() because no results are returned
     $conn->exec($sql);
-    echo "Table created successfully";
+
+    		setcookie('remove', "yes", time() + 1, null, null, false, true);
+     		header('Location: remove_data.php');      
+  
     }
-catch(PDOException $e)
+			catch(PDOException $e)
     {
-    echo $sql . "<br>" . $e->getMessage();
+    		setcookie('remove', "no", time() + 1, null, null, false, true);
+    		header('Location: remove_data.php');  	
     }
 
 $conn = null;

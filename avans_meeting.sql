@@ -47,7 +47,7 @@ CREATE TABLE `student` (
   `firstname` varchar(20) NOT NULL,
   `prefix` varchar(10) DEFAULT NULL,
   `lastname` varchar(20) NOT NULL,
-  `group` varchar(10) NOT NULL,
+  `group_name` varchar(10) NOT NULL,
   `email` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 

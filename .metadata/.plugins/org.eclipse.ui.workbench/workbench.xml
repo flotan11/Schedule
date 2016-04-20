@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="48" version="2.0">
+<workbench progressCount="45" version="2.0">
 <workbenchAdvisor/>
-<window height="1038" maximized="true" width="976" x="-8" y="0">
+<window height="1038" maximized="true" width="1349" x="-8" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -19,6 +19,8 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="206" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.wst.html.core.htmlsource.source" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.css.core.csssource.source" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.php.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -29,57 +31,45 @@
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
 <part id="1"/>
+<part id="0"/>
 <part id="2"/>
 <part id="3"/>
 <part id="4"/>
 <part id="5"/>
-<part id="6"/>
-<part id="7"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
+<editor id="org.eclipse.php.editor" name="menu_root.php" partName="menu_root.php" title="menu_root.php" tooltip="C:\xampp\htdocs\Schedule\menu_root.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/xampp/htdocs/Schedule/menu_root.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2750" selectionTopPixel="929"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="navb_root.php" partName="navb_root.php" title="navb_root.php" tooltip="C:\xampp\htdocs\Schedule\navb_root.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/xampp/htdocs/Schedule/navb_root.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="838" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="insert_root.php" partName="insert_root.php" title="insert_root.php" tooltip="C:\xampp\htdocs\Schedule\insert_root.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/xampp/htdocs/Schedule/insert_root.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2101" selectionTopPixel="1760"/>
+</editor>
 <editor id="org.eclipse.php.editor" name="insert.php" partName="insert.php" title="insert.php" tooltip="C:\xampp\htdocs\Schedule\insert.php" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/xampp/htdocs/Schedule/insert.php"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="350" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="672" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.php.editor" name="create.php" partName="create.php" title="create.php" tooltip="C:\xampp\htdocs\Schedule\create.php" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/xampp/htdocs/Schedule/create.php"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="344" selectionTopPixel="0"/>
+<editor id="org.eclipse.php.editor" name="insert_data.php" partName="insert_data.php" title="insert_data.php" tooltip="C:\xampp\htdocs\Schedule\insert_data.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/xampp/htdocs/Schedule/insert_data.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1203" selectionTopPixel="615"/>
 </editor>
-<editor id="org.eclipse.php.editor" name="select.php" partName="select.php" title="select.php" tooltip="C:\xampp\htdocs\Schedule\select.php" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/xampp/htdocs/Schedule/select.php"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="421" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.php.editor" name="check_log.php" partName="check_log.php" title="check_log.php" tooltip="C:\xampp\htdocs\Schedule\check_log.php" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/xampp/htdocs/Schedule/check_log.php"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="863" selectionTopPixel="221"/>
-</editor>
-<editor id="org.eclipse.php.editor" name="menu.php" partName="menu.php" title="menu.php" tooltip="C:\xampp\htdocs\Schedule\menu.php" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/xampp/htdocs/Schedule/menu.php"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="160" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.php.editor" name="menu_root.php" partName="menu_root.php" title="menu_root.php" tooltip="C:\xampp\htdocs\Schedule\menu_root.php" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/xampp/htdocs/Schedule/menu_root.php"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2154" selectionTopPixel="1021"/>
-</editor>
-<editor id="org.eclipse.php.editor" name="check_bdd.php" partName="check_bdd.php" title="check_bdd.php" tooltip="C:\xampp\htdocs\Schedule\check_bdd.php" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/xampp/htdocs/Schedule/check_bdd.php"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="754" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.php.editor" name="index.php" partName="index.php" title="index.php" tooltip="C:\xampp\htdocs\Schedule\index.php" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/xampp/htdocs/Schedule/index.php"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.php.editor" name="checkInsert_root.php" partName="checkInsert_root.php" title="checkInsert_root.php" tooltip="C:\xampp\htdocs\Schedule\checkInsert_root.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/xampp/htdocs/Schedule/checkInsert_root.php"/>
+<editorState selectionHorizontalPixel="8" selectionLength="0" selectionOffset="1538" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.php.ui.explorer" partName="PHP Explorer">
 <viewState group_libraries="1" isWindowWorkingSet="false" layout="1" linkWithEditor="0" rootMode="1" workingSetName="">
-<customFilters userDefinedPatternsEnabled="false">
-<xmlDefinedFilters>
-<child filterId="org.eclipse.php.ui.explorer.NonScriptProjectsFilter" isEnabled="false"/>
+<customFilters userDefinedPatternsEnabled="false">&#x0A;<xmlDefinedFilters>&#x0A;<child filterId="org.eclipse.php.ui.explorer.NonScriptProjectsFilter" isEnabled="false"/>
 <child filterId="org.eclipse.php.ui.explorer.SMFileFilter" isEnabled="false"/>
 <child filterId="org.eclipse.php.ui.explorer.LibraryFilter" isEnabled="false"/>
 <child filterId="org.eclipse.php.ui.explorer.NonPublicFilter" isEnabled="false"/>
@@ -121,7 +111,7 @@
 <view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
 </views>
 <perspectives activePart="org.eclipse.php.editor" activePerspective="org.eclipse.php.perspective">
-<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<perspective editorAreaTrimState="1" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.php.internal.ui.PHPPerspectiveFactory" id="org.eclipse.php.perspective" label="PHP"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
@@ -194,14 +184,14 @@
 <layout>
 <mainWindow>
 <info folder="true" part="topLeft">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.php.ui.explorer" label="LabelNotFound"/>
 <page content="org.eclipse.dltk.ui.TypeHierarchy" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@72209d93" ratio="0.749499" ratioLeft="748" ratioRight="250" relationship="2" relative="topLeft">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
@@ -219,7 +209,7 @@
 </folder>
 </info>
 <info folder="true" part="right" ratio="0.7496791" ratioLeft="584" ratioRight="195" relationship="2" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
 <page content="org.eclipse.php.ui.projectOutline" label="LabelNotFound"/>
@@ -234,162 +224,163 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" uri="file:/C:/xampp/htdocs/Schedule/menu.php"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" uri="file:/C:/xampp/htdocs/Schedule/check_log.php"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" uri="file:/C:/xampp/htdocs/Schedule/select.php"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" uri="file:/C:/xampp/htdocs/Schedule/menu_root.php"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" uri="file:/C:/xampp/htdocs/Schedule/insert_root.php"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" uri="file:/C:/xampp/htdocs/Schedule/insert_data.php"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" uri="file:/C:/xampp/htdocs/Schedule/insert.php"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" uri="file:/C:/xampp/htdocs/Schedule/check_bdd.php"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" uri="file:/C:/xampp/htdocs/Schedule/index.php"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" uri="file:/C:/xampp/htdocs/Schedule/checkInsert_root.php"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" uri="file:/C:/xampp/htdocs/Schedule/menu_root.php"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" uri="file:/C:/xampp/htdocs/Schedule/css/style_root.css"/>
 </editors>
-<item historyLabel="check_log.php" index="1">
-<position info="not_deleted" x="596" y="0"/>
-</item>
-<item historyLabel="menu_root.php" index="3">
-<position info="not_deleted" x="1075" y="0"/>
-</item>
-<item historyLabel="check_log.php" index="1">
-<position info="not_deleted" x="1051" y="0"/>
-</item>
-<item historyLabel="menu.php" index="0">
-<position info="not_deleted" x="6" y="0"/>
-</item>
-<item historyLabel="check_bdd.php" index="4">
-<position info="not_deleted" x="455" y="0"/>
-</item>
-<item historyLabel="index.php" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="menu_root.php" index="3">
-<position info="not_deleted" x="1075" y="0"/>
-</item>
-<item historyLabel="menu.php" index="0">
-<position info="not_deleted" x="6" y="0"/>
-</item>
-<item historyLabel="check_log.php" index="1">
-<position info="not_deleted" x="1051" y="0"/>
-</item>
-<item historyLabel="select.php" index="2">
-<position info="not_deleted" x="421" y="0"/>
-</item>
-<item historyLabel="check_log.php" index="1">
-<position info="not_deleted" x="1051" y="0"/>
-</item>
-<item historyLabel="menu.php" index="0">
-<position info="not_deleted" x="6" y="0"/>
-</item>
-<item historyLabel="menu_root.php" index="3">
-<position info="not_deleted" x="1075" y="0"/>
-</item>
-<item historyLabel="check_bdd.php" index="4">
-<position info="not_deleted" x="455" y="0"/>
-</item>
-<item historyLabel="check_bdd.php" index="4">
-<position info="not_deleted" x="656" y="0"/>
-</item>
-<item historyLabel="menu_root.php" index="3">
-<position info="not_deleted" x="1075" y="0"/>
-</item>
-<item historyLabel="check_bdd.php" index="4">
-<position info="not_deleted" x="718" y="0"/>
-</item>
-<item historyLabel="check_log.php" index="1">
-<position info="not_deleted" x="1051" y="0"/>
-</item>
-<item historyLabel="index.php" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="check_log.php" index="1">
-<position info="not_deleted" x="968" y="0"/>
-</item>
-<item historyLabel="index.php" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="check_bdd.php" index="4">
-<position info="not_deleted" x="593" y="0"/>
-</item>
-<item historyLabel="index.php" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="check_bdd.php" index="4">
-<position/>
-</item>
-<item historyLabel="index.php" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="menu_root.php" index="3">
-<position info="not_deleted" x="1075" y="0"/>
-</item>
-<item historyLabel="menu.php" index="0">
-<position info="not_deleted" x="358" y="24"/>
-</item>
-<item historyLabel="menu_root.php" index="3">
-<position info="not_deleted" x="1075" y="0"/>
-</item>
-<item historyLabel="check_bdd.php" index="4">
-<position info="not_deleted" x="761" y="0"/>
-</item>
-<item historyLabel="index.php" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="menu_root.php" index="3">
-<position info="not_deleted" x="710" y="0"/>
-</item>
-<item historyLabel="menu.php" index="0">
-<position info="not_deleted" x="160" y="0"/>
-</item>
-<item historyLabel="index.php" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="check_bdd.php" index="4">
-<position info="not_deleted" x="761" y="0"/>
-</item>
-<item historyLabel="menu_root.php" index="3">
-<position/>
-</item>
-<item historyLabel="check_bdd.php" index="4">
-<position info="not_deleted" x="761" y="0"/>
-</item>
-<item historyLabel="menu_root.php" index="3">
-<position/>
-</item>
-<item historyLabel="check_bdd.php" index="4">
-<position info="not_deleted" x="761" y="0"/>
-</item>
-<item historyLabel="index.php" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="menu_root.php" index="3">
-<position/>
-</item>
-<item historyLabel="menu.php" index="0">
-<position info="not_deleted" x="160" y="0"/>
-</item>
-<item historyLabel="check_log.php" index="1">
+<item historyLabel="check_bdd.php" index="3">
 <position info="not_deleted" x="863" y="0"/>
 </item>
-<item historyLabel="menu_root.php" index="3">
-<position/>
+<item historyLabel="checkInsert_root.php" index="4">
+<position info="not_deleted" x="678" y="0"/>
 </item>
-<item historyLabel="check_bdd.php" index="4">
-<position info="not_deleted" x="754" y="0"/>
-</item>
-<item historyLabel="index.php" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="menu_root.php" index="3">
-<position/>
-</item>
-<item historyLabel="menu.php" index="0">
-<position info="not_deleted" x="160" y="0"/>
-</item>
-<item historyLabel="check_log.php" index="1">
+<item historyLabel="check_bdd.php" index="3">
 <position info="not_deleted" x="863" y="0"/>
 </item>
-<item historyLabel="check_bdd.php" index="4">
-<position info="not_deleted" x="754" y="0"/>
+<item historyLabel="insert_data.php" index="1">
+<position info="not_deleted" x="1925" y="10"/>
 </item>
-<item active="true" historyLabel="menu_root.php" index="3">
-<position/>
+<item historyLabel="insert_root.php" index="0">
+<position info="not_deleted" x="2418" y="0"/>
+</item>
+<item historyLabel="insert_data.php" index="1">
+<position info="not_deleted" x="1925" y="10"/>
+</item>
+<item historyLabel="insert_root.php" index="0">
+<position info="not_deleted" x="2103" y="0"/>
+</item>
+<item historyLabel="check_bdd.php" index="3">
+<position info="not_deleted" x="863" y="0"/>
+</item>
+<item historyLabel="checkInsert_root.php" index="4">
+<position info="not_deleted" x="678" y="0"/>
+</item>
+<item historyLabel="insert_data.php" index="1">
+<position info="not_deleted" x="1925" y="10"/>
+</item>
+<item historyLabel="checkInsert_root.php" index="4">
+<position info="not_deleted" x="678" y="0"/>
+</item>
+<item historyLabel="insert.php" index="2">
+<position info="not_deleted" x="736" y="0"/>
+</item>
+<item historyLabel="insert_root.php" index="0">
+<position info="not_deleted" x="2103" y="0"/>
+</item>
+<item historyLabel="insert_data.php" index="1">
+<position info="not_deleted" x="1925" y="10"/>
+</item>
+<item historyLabel="checkInsert_root.php" index="4">
+<position info="not_deleted" x="1557" y="0"/>
+</item>
+<item historyLabel="insert_root.php" index="0">
+<position info="not_deleted" x="2103" y="0"/>
+</item>
+<item historyLabel="menu_root.php" index="5">
+<position info="not_deleted" x="2750" y="0"/>
+</item>
+<item historyLabel="checkInsert_root.php" index="4">
+<position info="not_deleted" x="1720" y="0"/>
+</item>
+<item historyLabel="insert_data.php" index="1">
+<position info="not_deleted" x="1203" y="0"/>
+</item>
+<item historyLabel="menu_root.php" index="5">
+<position info="not_deleted" x="2750" y="0"/>
+</item>
+<item historyLabel="insert_root.php" index="0">
+<position info="not_deleted" x="2962" y="0"/>
+</item>
+<item historyLabel="menu_root.php" index="5">
+<position info="not_deleted" x="2750" y="0"/>
+</item>
+<item historyLabel="insert_root.php" index="0">
+<position info="not_deleted" x="2962" y="0"/>
+</item>
+<item historyLabel="checkInsert_root.php" index="4">
+<position info="not_deleted" x="1720" y="0"/>
+</item>
+<item historyLabel="insert.php" index="2">
+<position info="not_deleted" x="672" y="0"/>
+</item>
+<item historyLabel="checkInsert_root.php" index="4">
+<position info="not_deleted" x="1157" y="0"/>
+</item>
+<item historyLabel="check_bdd.php" index="3">
+<position info="not_deleted" x="863" y="0"/>
+</item>
+<item historyLabel="checkInsert_root.php" index="4">
+<position info="not_deleted" x="1157" y="0"/>
+</item>
+<item historyLabel="insert_root.php" index="0">
+<position info="not_deleted" x="2908" y="0"/>
+</item>
+<item historyLabel="menu_root.php" index="5">
+<position info="not_deleted" x="2750" y="0"/>
+</item>
+<item historyLabel="insert_root.php" index="0">
+<position info="not_deleted" x="2908" y="0"/>
+</item>
+<item historyLabel="checkInsert_root.php" index="4">
+<position info="not_deleted" x="1157" y="0"/>
+</item>
+<item historyLabel="insert_root.php" index="0">
+<position info="not_deleted" x="2908" y="0"/>
+</item>
+<item historyLabel="insert_data.php" index="1">
+<position info="not_deleted" x="1203" y="0"/>
+</item>
+<item historyLabel="insert_root.php" index="0">
+<position info="not_deleted" x="2845" y="0"/>
+</item>
+<item historyLabel="insert_data.php" index="1">
+<position info="not_deleted" x="1203" y="0"/>
+</item>
+<item historyLabel="insert_root.php" index="0">
+<position info="not_deleted" x="2908" y="0"/>
+</item>
+<item historyLabel="checkInsert_root.php" index="4">
+<position info="not_deleted" x="1699" y="0"/>
+</item>
+<item historyLabel="insert_root.php" index="0">
+<position info="not_deleted" x="2101" y="0"/>
+</item>
+<item historyLabel="checkInsert_root.php" index="4">
+<position info="not_deleted" x="1459" y="0"/>
+</item>
+<item historyLabel="check_bdd.php" index="3">
+<position info="not_deleted" x="787" y="0"/>
+</item>
+<item historyLabel="checkInsert_root.php" index="4">
+<position info="not_deleted" x="1459" y="0"/>
+</item>
+<item historyLabel="insert.php" index="2">
+<position info="not_deleted" x="672" y="0"/>
+</item>
+<item historyLabel="style_root.css" index="6">
+<position info="not_deleted" x="688" y="0"/>
+</item>
+<item historyLabel="insert.php" index="2">
+<position info="not_deleted" x="672" y="0"/>
+</item>
+<item historyLabel="menu_root.php" index="5">
+<position info="not_deleted" x="2750" y="0"/>
+</item>
+<item historyLabel="insert_root.php" index="0">
+<position info="not_deleted" x="2101" y="0"/>
+</item>
+<item historyLabel="insert.php" index="2">
+<position info="not_deleted" x="672" y="0"/>
+</item>
+<item historyLabel="insert_data.php" index="1">
+<position info="not_deleted" x="1203" y="0"/>
+</item>
+<item active="true" historyLabel="checkInsert_root.php" index="4">
+<position info="not_deleted" x="1459" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -416,35 +407,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" name="index.php" tooltip="C:\xampp\htdocs\Schedule\index.php">
-<persistable uri="file:/C:/xampp/htdocs/Schedule/index.php"/>
-</file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" name="check_bdd.php" tooltip="C:\xampp\htdocs\Schedule\check_bdd.php">
 <persistable uri="file:/C:/xampp/htdocs/Schedule/check_bdd.php"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" name="menu_root.php" tooltip="C:\xampp\htdocs\Schedule\menu_root.php">
-<persistable uri="file:/C:/xampp/htdocs/Schedule/menu_root.php"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" name="menu.php" tooltip="C:\xampp\htdocs\Schedule\menu.php">
-<persistable uri="file:/C:/xampp/htdocs/Schedule/menu.php"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="avans_meeting.sql" tooltip="C:\xampp\htdocs\Schedule\avans_meeting.sql">
-<persistable uri="file:/C:/xampp/htdocs/Schedule/avans_meeting.sql"/>
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" name="check_log.php" tooltip="C:\xampp\htdocs\Schedule\check_log.php">
 <persistable uri="file:/C:/xampp/htdocs/Schedule/check_log.php"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" name="delete.php" tooltip="C:\xampp\htdocs\Schedule\delete.php">
-<persistable uri="file:/C:/xampp/htdocs/Schedule/delete.php"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" name="checkInsert_root.php" tooltip="C:\xampp\htdocs\Schedule\checkInsert_root.php">
+<persistable uri="file:/C:/xampp/htdocs/Schedule/checkInsert_root.php"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" name="select.php" tooltip="C:\xampp\htdocs\Schedule\select.php">
-<persistable uri="file:/C:/xampp/htdocs/Schedule/select.php"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" name="create.php" tooltip="C:\xampp\htdocs\Schedule\create.php">
-<persistable uri="file:/C:/xampp/htdocs/Schedule/create.php"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" name="insert_data.php" tooltip="C:\xampp\htdocs\Schedule\insert_data.php">
+<persistable uri="file:/C:/xampp/htdocs/Schedule/insert_data.php"/>
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" name="insert.php" tooltip="C:\xampp\htdocs\Schedule\insert.php">
 <persistable uri="file:/C:/xampp/htdocs/Schedule/insert.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="style_root.css" tooltip="C:\xampp\htdocs\Schedule\css\style_root.css">
+<persistable uri="file:/C:/xampp/htdocs/Schedule/css/style_root.css"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" name="insert_root.php" tooltip="C:\xampp\htdocs\Schedule\insert_root.php">
+<persistable uri="file:/C:/xampp/htdocs/Schedule/insert_root.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" name="navb_root.php" tooltip="C:\xampp\htdocs\Schedule\navb_root.php">
+<persistable uri="file:/C:/xampp/htdocs/Schedule/navb_root.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" name="menu_root.php" tooltip="C:\xampp\htdocs\Schedule\menu_root.php">
+<persistable uri="file:/C:/xampp/htdocs/Schedule/menu_root.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" name="delete.php" tooltip="C:\xampp\htdocs\Schedule\delete.php">
+<persistable uri="file:/C:/xampp/htdocs/Schedule/delete.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" name="select_data.php" tooltip="C:\xampp\htdocs\Schedule\select_data.php">
+<persistable uri="file:/C:/xampp/htdocs/Schedule/select_data.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" name="check_select.php" tooltip="C:\xampp\htdocs\Schedule\check_select.php">
+<persistable uri="file:/C:/xampp/htdocs/Schedule/check_select.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" name="check_remove.php" tooltip="C:\xampp\htdocs\Schedule\check_remove.php">
+<persistable uri="file:/C:/xampp/htdocs/Schedule/check_remove.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.php.editor" name="remove_data.php" tooltip="C:\xampp\htdocs\Schedule\remove_data.php">
+<persistable uri="file:/C:/xampp/htdocs/Schedule/remove_data.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="index.html" tooltip="C:\Users\aldup\Desktop\solid\theme\index.html">
+<persistable uri="file:/C:/Users/aldup/Desktop/solid/theme/index.html"/>
 </file>
 </mruList>
 </workbench>
