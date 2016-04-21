@@ -94,7 +94,13 @@ form{
 	
 #presentation{
 	font-family: Impact;
-	font-size: 20px;
+	font-size: 25px;
 	text-align: center;
 	width: 100%;
+}
+
+#formulaire{
+width :100%;
+text-aling : left;
+	
 }
