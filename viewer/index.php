@@ -12,25 +12,10 @@ session_start ();
 </header>
 <body>
 <?php
-if (isset ( $_SESSION ['logged'] )) {
-	$target = "";
-	echo '<h2>You are already connected.</h2>';
-	switch ($_SESSION ['status']) {
-		case 'root' :
-			$target = 'root/menu_root.php';
-			break;
-		
-		case 'teacher' :
-			$target = 'teacher/menu_teacher.php';
-			break;
-		
-		case 'student' :
-			$target = 'student/menu.php';
-			break;
-	}
-	echo '<button id="retur" name="button" onclick="document.location.href=\'' . $target . '\'">Come back to Menu</button>';
-} else {
-	?>
+require '../controller/check.php';
+$check=new check;
+	if(!$check->rejectIfLog()){
+?>
 <table>
 		<tr>
 			<td><img id="icon" src="../img/avans.png" alt="AVANS Icon"></td>

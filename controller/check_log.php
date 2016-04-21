@@ -8,17 +8,8 @@ function debug_to_console($data) {
 	}
 	echo $output;
 }
-
-$servername = "home.spijkerman.nl";
-$username = "subs";
-$password = "sub564-A";
-$dbname = "subs";
-
-try {
-	$conn = new PDO ( "mysql:host=$servername;dbname=$dbname", $username, $password );
-} catch ( Exception $e ) {
-	die ( 'Erreur : ' . $e->getMessage () );
-}
+require 'askDB.php';
+$conn = askDB::iniServ ();
 
 $reponse_ine = $conn->query ( "select student_id from student"/* where student_id={$_POST['INE']}"*/);
 $reponse_inp = $conn->query ( "select lastname from teacher" );

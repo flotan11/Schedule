@@ -14,43 +14,16 @@ session_start ();
 </header>
 <body>
 <?php
-if (! isset ( $_SESSION ['logged'] ) || $_SESSION ['status'] != 'teacher') {
-	echo '<h2>You dont have the right access, please try to connect and try again.</h2>';
-	$target = "";
-	if (isset ( $_SESSION ['status'] )) {
-		switch ($_SESSION ['status']) {
-			case 'root' :
-				$target = 'root/menu_root.php';
-				break;
-			case 'student' :
-				$target = 'student/menu.php';
-				break;
-		}
-	} else {
-		$target = '../index.php';
-	}
-	echo '<button id="retur" name="button" onclick="document.location.href=\'' . $target . '\'">Come back to Menu</button>';
-} else {
+require '../../controller/check.php';
+$check=new check;
+if (!$check->rejectIfDiffer('teacher')){
 	require '../../controller/navb.php';
 	echo navb::generateNav ();
-	try {
-		$bdd = new PDO ( 'mysql:host=home.spijkerman.nl;dbname=subs;charset=utf8', 'subs', 'sub564-A' );
-	} catch ( Exception $e ) {
-		die ( 'Erreur : ' . $e->getMessage () );
-	}
-	?>
-
-<form id="mailIt" name="mailIt" method="post" action="mail.php">
+?>
+	<form id="mailIt" name="mailIt" method="post" action="mail.php">
 <?php
-	$servername = "home.spijkerman.nl";
-	$username = "subs";
-	$password = "sub564-A";
-	$dbname = "subs";
-	try {
-		$conn = new PDO ( "mysql:host=$servername;dbname=$dbname", $username, $password );
-	} catch ( Exception $e ) {
-		die ( 'Erreur : ' . $e->getMessage () );
-	}
+	require '../../controller/askDB.php';
+	$conn = askDB::iniServ ();
 	$reponse_e = $conn->query ( "Select event_name from event where teacher_id=" . $_SESSION ['logged'] );
 	echo '<table class=\'event_list\'>';
 	echo '<tr>';
