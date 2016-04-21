@@ -37,14 +37,15 @@ Teacher:
    .menu_teacher.php:
 	-Teacher can naviguate in time if events length is superior to 5 days
    .mail.php:
-	-Teacher need to send mail to invite some students in event
-	-Teacher can tick an event in mail categorie to add group of students
+	-Teacher can send mail to invite some students in event
+	-Teacher can select a group of students to add to an event
+	-Teacher can invite students by e-mail
 	-Teacher can import a list of students by excel or CSV/text file (if they are already in the system)
-	-Teacher can enter nomber of students to add them (without create excel or CSV/text file)
-	-Teacher can choose to send and pre-writed mail or personnalise it
+	-Teacher can enter student numbers or names to add them (without create excel or CSV/text file)
+	-Teacher can choose to send and pre-writed mail or personalise it
    .createE.php:
 	-Teacher can enter name of event and select dates of Start and End
-	-Date are controlled (Date end > Date Start)
+	-Date are cchecked (Date end > Date Start)
 	-Teacher is reconduct to menu_teacher.php with the new event created in selected
    .listE.php:
 	-Teacher can have access to a list of Student for an specified event

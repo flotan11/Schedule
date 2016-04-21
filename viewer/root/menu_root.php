@@ -48,13 +48,10 @@ echo navb::generateNav ();
 	</table>
 
 	<form method="post" action="menu_root.php">
-		<select name="list">
-			<option value="no_value">Select table</option>
-			<option value="subscription">Subscription</option>
-			<option value="student">Student</option>
-			<option value="event">Event</option>
-			<option value="teacher">Teacher</option>
-		</select> <input type="submit" value="ok" name="ok" />
+	<input type="submit" value="Table Subscription" name="subs" />
+	<input type="submit" value="Table Teacher" name="teac" />
+	<input type="submit" value="Table Event" name="even" />
+	<input type="submit" value="Table Student" name="stud" />
 
 <?php
 class TableRows extends RecursiveIteratorIterator {
@@ -81,29 +78,30 @@ try {
 	$conn = new PDO ( "mysql:host=$servername;dbname=$dbname", $username, $password );
 	$conn->setAttribute ( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 	$stmt = $conn->prepare ( "SELECT * FROM rien" );
-	if (isset ( $_POST ['list'] )) {
+
+	
 		echo "<div id='tables'>";
-		if ($_POST ['list'] == 'subscription') {
+			if(isset ( $_POST ['subs'] )) {
 			echo "<br><table style='border: solid 3px black;background-color : #00ACEB;'>";
 			echo "<tr><th>event_name</th><th>student_id</th><th>date</th><th>time</th></tr>";
 			$stmt = $conn->prepare ( "SELECT * FROM subscription" );
-		} elseif ($_POST ['list'] == 'student') {
+		} elseif (isset ( $_POST ['stud'] )) {
 			echo "<br><table style='border: solid 3px black;background-color : #00ACEB;'>";
 			echo "<tr><th>student_id</th><th>login_code</th><th>firstname</th><th>prefix</th><th>lastname</th><th>group</th><th>mail</th><th>team_name</th></tr>";
 			$stmt = $conn->prepare ( "SELECT * FROM student" );
-		} elseif ($_POST ['list'] == 'event') {
+		} elseif (isset ( $_POST ['even'] )) {
 			echo "<br><table style='border: solid 3px black;background-color : #00ACEB;'>";
 			echo "<tr><th>event_name</th><th>teacher_id</th><th>startdate</th><th>endate</th><th>location</th><th>remarks</th></tr>";
 			$stmt = $conn->prepare ( "SELECT * FROM event" );
-		} elseif ($_POST ['list'] == 'teacher') {
+		} elseif (isset ( $_POST ['teac'] )) {
 			echo "<br><table style='border: solid 3px black;background-color : #00ACEB;'>";
 			echo "<tr><th>teacher_id</th><th>logincode</th><th>firstname</th><th>prefix</th><th>lastname</th><th>mail</th></tr>";
 			$stmt = $conn->prepare ( "SELECT * FROM teacher" );
 		} else {
 			$stmt = $conn->prepare ( "SELECT * FROM rien" );
 		}
-	} else {
-	}
+	
+	
 	$stmt->execute ();
 	
 	// set the resulting array to associative
