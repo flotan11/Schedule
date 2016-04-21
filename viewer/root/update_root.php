@@ -47,12 +47,11 @@ if (! isset ( $_SESSION ['logged'] ) || $_SESSION ['status'] != 'root') {
 </td></tr>
 </table>	
    
-    <form method="post" action="update_root.php>
-	<input type="submit" value="Table Subscription" name="subs" />
-	<input type="submit" value="Table Teacher" name="teac" />
-	<input type="submit" value="Table Event" name="even" />
-	<input type="submit" value="Table Student" name="stud" />
-</form>
+<form method="post" action="update_root.php">
+	<input type="submit" value="Table Subscription" name="subs" style="background-color: #c6002a; border: 2px solid black;  width: 120px; height: 40px;" />
+	<input type="submit" value="Table Teacher" name="teac" style="background-color: #c6002a; border: 2px solid black;  width: 120px; height: 40px;" />
+	<input type="submit" value="Table Event" name="even" style="background-color: #c6002a; border: 2px solid black;  width: 120px; height: 40px;" />
+	<input type="submit" value="Table Student" name="stud" style="background-color: #c6002a; border: 2px solid black;  width: 120px; height: 40px;"> 
 <?php 
 }
 ?>

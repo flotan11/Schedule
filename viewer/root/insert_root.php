@@ -46,20 +46,14 @@ if (! isset ( $_SESSION ['logged'] ) || $_SESSION ['status'] != 'root') {
 </td></tr>
 </table>	
    
-    <form method="post" action="insert_root.php">
-        <select name="list">
-            <option value="no_value">Select table</option>
-            <option value="subscription">Subscription</option>
-            <option value="student">Student</option>
-            <option value="event">Event</option>
-            <option value="teacher">Teacher</option>
-        </select>
-        <input type="submit" value="ok" name="ok" />
-</form>
+<form method="post" action="insert_root.php">
+	<input type="submit" value="Table Subscription" name="subs" style="background-color: #c6002a; border: 2px solid black;  width: 120px; height: 40px;" />
+	<input type="submit" value="Table Teacher" name="teac" style="background-color: #c6002a; border: 2px solid black;  width: 120px; height: 40px;" />
+	<input type="submit" value="Table Event" name="even" style="background-color: #c6002a; border: 2px solid black;  width: 120px; height: 40px;" />
+	<input type="submit" value="Table Student" name="stud" style="background-color: #c6002a; border: 2px solid black;  width: 120px; height: 40px;"> 
 
 <?php 
- if (isset($_POST['list'])){
- if($_POST['list'] == 'student'){
+ if (isset($_POST['subs'])){
 
  	
 ?>
@@ -82,7 +76,7 @@ if (! isset ( $_SESSION ['logged'] ) || $_SESSION ['status'] != 'root') {
     <?php 
     
       } 
-      if($_POST['list'] == 'teacher'){
+      if(isset($_POST['teac'])){
 
  	
 ?>
@@ -104,7 +98,7 @@ if (! isset ( $_SESSION ['logged'] ) || $_SESSION ['status'] != 'root') {
     
       } 
       
-      if($_POST['list'] == 'subscription'){
+      if(isset($_POST['even'])){
 
  	
 ?>
@@ -124,7 +118,7 @@ if (! isset ( $_SESSION ['logged'] ) || $_SESSION ['status'] != 'root') {
     
       } 
       
-       if($_POST['list'] == 'event'){
+       if(isset($_POST['stud'])){
        		
 ?>
 
@@ -146,7 +140,7 @@ if (! isset ( $_SESSION ['logged'] ) || $_SESSION ['status'] != 'root') {
     
  	     } 
  	}
- }
+ 
 
 ?>
 

@@ -13,7 +13,7 @@ body{
 
 form{
 	padding-left:5%;
-	text-align: right;
+	margin-left : 250px;
 	width:65%
 }
 
@@ -42,6 +42,7 @@ form{
 .navbar a:hover {
 	background-color:#c6002a;
 }
+
 
 .navbar a.selected {
 	background-color:#c6002a;

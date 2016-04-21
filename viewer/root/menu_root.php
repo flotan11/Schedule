@@ -47,11 +47,14 @@ echo navb::generateNav ();
 		</tr>
 	</table>
 
+	<hr>
+
 	<form method="post" action="menu_root.php">
-	<input type="submit" value="Table Subscription" name="subs" />
-	<input type="submit" value="Table Teacher" name="teac" />
-	<input type="submit" value="Table Event" name="even" />
-	<input type="submit" value="Table Student" name="stud" />
+	<input type="submit" value="Table Subscription" name="subs" style="background-color: #c6002a; border: 2px solid black;  width: 120px; height: 40px;" />
+	<input type="submit" value="Table Teacher" name="teac" style="background-color: #c6002a; border: 2px solid black;  width: 120px; height: 40px;" />
+	<input type="submit" value="Table Event" name="even" style="background-color: #c6002a; border: 2px solid black;  width: 120px; height: 40px;" />
+	<input type="submit" value="Table Student" name="stud" style="background-color: #c6002a; border: 2px solid black;  width: 120px; height: 40px;"> 
+
 
 <?php
 class TableRows extends RecursiveIteratorIterator {
@@ -82,18 +85,22 @@ try {
 	
 		echo "<div id='tables'>";
 			if(isset ( $_POST ['subs'] )) {
+			echo "<font face='purisa' color='#00ACEB' size='6px'><p align='left'>Subscription Table </p></font> ";
 			echo "<br><table style='border: solid 3px black;background-color : #00ACEB;'>";
 			echo "<tr><th>event_name</th><th>student_id</th><th>date</th><th>time</th></tr>";
 			$stmt = $conn->prepare ( "SELECT * FROM subscription" );
 		} elseif (isset ( $_POST ['stud'] )) {
+			echo "<font face='purisa' color='#00ACEB' size='6px'><p align='left'>Student Table </p></font> ";
 			echo "<br><table style='border: solid 3px black;background-color : #00ACEB;'>";
 			echo "<tr><th>student_id</th><th>login_code</th><th>firstname</th><th>prefix</th><th>lastname</th><th>group</th><th>mail</th><th>team_name</th></tr>";
 			$stmt = $conn->prepare ( "SELECT * FROM student" );
 		} elseif (isset ( $_POST ['even'] )) {
+			echo "<font face='purisa' color='#00ACEB' size='6px'><p align='left'>Event Table </p></font> ";
 			echo "<br><table style='border: solid 3px black;background-color : #00ACEB;'>";
 			echo "<tr><th>event_name</th><th>teacher_id</th><th>startdate</th><th>endate</th><th>location</th><th>remarks</th></tr>";
 			$stmt = $conn->prepare ( "SELECT * FROM event" );
 		} elseif (isset ( $_POST ['teac'] )) {
+			echo "<font face='purisa' color='#00ACEB' size='6px'><p align='left'>Teacher Table </p></font> ";
 			echo "<br><table style='border: solid 3px black;background-color : #00ACEB;'>";
 			echo "<tr><th>teacher_id</th><th>logincode</th><th>firstname</th><th>prefix</th><th>lastname</th><th>mail</th></tr>";
 			$stmt = $conn->prepare ( "SELECT * FROM teacher" );
