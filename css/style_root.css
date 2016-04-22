@@ -11,12 +11,6 @@ body{
 	width:100%;
 }
 
-form{
-	padding-left:5%;
-	margin-left : 250px;
-	width:65%
-}
-
 .name{
 	text-align:center;
 	background-color:Black;
@@ -93,14 +87,47 @@ form{
 }
 	
 #presentation{
-	font-family: Impact;
-	font-size: 25px;
+	font-family: Verdana;
+	font-size: 23px;
 	text-align: center;
 	width: 100%;
 }
 
 #formulaire{
 width :100%;
-text-aling : left;
-	
+align : center;
 }
+
+#formulaire p {
+
+
+
+}
+
+form {
+  font-family : Verdana;
+  overflow: hidden;
+  padding-left:5%;
+  margin-left : 250px;
+  width:65%
+  
+
+}
+
+#text{
+	font-family: Verdana;
+	width : 90%;
+	font-size : 19px;
+
+}
+
+input {
+  font-family : Verdana;
+  border: 1px solid #c6c7cc;
+  border-radius: 5px;
+  font-size: 14px;
+  margin: 5px;
+  
+  }
+  
+  

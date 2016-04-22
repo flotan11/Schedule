@@ -31,7 +31,7 @@ if (!$check->rejectIfDiffer('root')){
 	
 </td></tr>
 </table>	
-   
+   <hr>
 <form method="post" action="insert_root.php">
 	<input type="submit" value="Table Subscription" name="subs" style="background-color: #c6002a; border: 2px solid black;  width: 120px; height: 40px;" />
 	<input type="submit" value="Table Teacher" name="teac" style="background-color: #c6002a; border: 2px solid black;  width: 120px; height: 40px;" />
@@ -40,6 +40,7 @@ if (!$check->rejectIfDiffer('root')){
 </form>
 
 <?php 
+
  if (isset($_POST['stud'])){
 
 $_SESSION['table'] = 'student'; 	
@@ -48,14 +49,14 @@ $_SESSION['table'] = 'student';
 <table>
    <div id="formulaire">
 	<form method="POST" action="../../controller/checkInsert_root.php">
-		<p>student_id : <input type="text" name="student_idstudent"/>
-		<p>logincode : <input type="text" name="login_codestudent"/>
-		<p>firstname : <input type="text" name="firstnamestudent"/>
-		<p>prefix : <input type="text" name="prefixstudent"/>
-		<p>lastname : <input type="text" name="lastnamestudent"/>
-		<p>group_name : <input type="text" name="group_namestudent"/>
-		<p>email : <input type="text" name="emailstudent"/>
-		<p>Team  : <input type="text" name="team_namestudent"/>
+		<p><div id="text">student_id : </div><input type="text" name="student_idstudent"/>
+		<p><div id="text">logincode : </div><input type="text" name="login_codestudent"/>
+		<p><div id="text">firstname : </div><input type="text" name="firstnamestudent"/>
+		<p><div id="text">prefix : </div><input type="text" name="prefixstudent"/>
+		<p><div id="text">lastname : </div><input type="text" name="lastnamestudent"/>
+		<p><div id="text">group_name : </div><input type="text" name="group_namestudent"/>
+		<p><div id="text">email : </div><input type="text" name="emailstudent"/>
+		<p><div id="text">Team  : </div><input type="text" name="team_namestudent"/>
 		<input type="Submit"  value="Enter"></p>
 	</form>
 	</div>
@@ -73,12 +74,12 @@ $_SESSION['table'] = 'teacher';
 <table>
    <div id="formulaire">
 	<form method="POST" action="../../controller/checkInsert_root.php">
-		<p>teacher_id : <input type="text" name="teacher_idteacher"/>
-		<p>logincode : <input type="text" name="logincodeteacher"/>
-		<p>firstname : <input type="text" name="firstnameteacher"/>
-		<p>prefix : <input type="text" name="prefixteacher"/>
-		<p>lastname : <input type="text" name="lastnameteacher"/>
-		<p>email : <input type="text" name="emailteacher"/>
+		<p><div id="text">teacher_id :</div> <input type="text" name="teacher_idteacher"/>
+		<p><div id="text">logincode : </div><input type="text" name="logincodeteacher"/>
+		<p><div id="text">firstname : </div><input type="text" name="firstnameteacher"/>
+		<p><div id="text">prefix : </div><input type="text" name="prefixteacher"/>
+		<p><div id="text">lastname : </div><input type="text" name="lastnameteacher"/>
+		<p><div id="text">email :</div> <input type="text" name="emailteacher"/>
 		<input type="Submit"  value="Enter"></p>
 	</form>
 	</div>
@@ -89,41 +90,41 @@ $_SESSION['table'] = 'teacher';
     
       } 
       
-      if(isset($_POST['even'])){
-$_SESSION['table'] = 'event'; 	
+      if(isset($_POST['subs'])){
+$_SESSION['table'] = 'subscription'; 	
  	
 ?>
 
 <table>
    <div id="formulaire">
 	<form method="POST" action="../../controller/checkInsert_root.php">
-		<p>event_name : <input type="text" name="event_namesubscription"/>
-		<p>student_id : <input type="text" name="student_idsubscription"/>
-		<p>date : <input type="date" name="datesubscription"/>
-		<p>time : <input type="time" name="timesubscription"/>
+		<p><div id="text">event_name : </div><input type="text" name="event_namesubscription"/>
+		<p><div id="text">student_id : </div><input type="text" name="student_idsubscription"/>
+		<p><div id="text">date :</div> <input type="date" name="datesubscription"/>
+		<p><div id="text">time :</div></div> <input type="time" name="timesubscription"/>
 		<input type="Submit"  value="Enter"></p>
 	</form>
 	</div>
 	</table>
 
-    
     <?php 
-    
+  
+
       } 
       
-       if(isset($_POST['subs'])){
-      $_SESSION['table'] = 'subscription'; 	 		
+       if(isset($_POST['even'])){
+      $_SESSION['table'] = 'event'; 	 		
 ?>
 
 <table>
    <div id="formulaire">
 	<form method="POST" action="../../controller/checkInsert_root.php">
-		<p>event_name : <input type="text" name="event_nameevent"/>
-		<p>teacher_id : <input type="text" name="teacher_idevent"/>
-		<p>startdate : <input type="date" name="startdateevent"/>
-		<p>endate : <input type="date" name="endateevent"/>
-		<p>location : <input type="text" name="locationevent"/>
-		<p>remarks : <input type="text" name="remarksevent"/>
+		<p><div id="text">event_name : </div><input type="text" name="event_nameevent"/>
+		<p><div id="text">teacher_id : </div><input type="text" name="teacher_idevent"/>
+		<p><div id="text">startdate : </div><input type="date" name="startdateevent"/>
+		<p><div id="text">endate : </div><input type="date" name="endateevent"/>
+		<p><div id="text">location : </div><input type="text" name="locationevent"/>
+		<p><div id="text">remarks : </div><input type="text" name="remarksevent"/>
 		
 		<input type="Submit"  value="Enter"></p>
 	</form>
@@ -135,9 +136,7 @@ $_SESSION['table'] = 'event';
  	     } 
  	}
  
-
 ?>
-
 
 </body>
 </html>
