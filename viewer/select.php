@@ -21,7 +21,7 @@ class TableRows extends RecursiveIteratorIterator {
     } 
 } 
 
-$servername = "subscriptor.nl";
+$servername = "172.21.155.207";
 $username = "dbm";
 $password = "1L518LDvAL4p7uDa";
 $dbname = "subs";

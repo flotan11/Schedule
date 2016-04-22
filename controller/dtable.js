@@ -28,7 +28,7 @@ function getParent(element, parentTagName) {
 	}
 }
 
-function addLigne(link) {
+function addLine(link) {
 	// 1. récuperer le node "TABLE" à manipuler
 	var td = link.parentNode;
 	var table = getParent(td,'TABLE');
@@ -51,7 +51,7 @@ function displayResult(x) {
 	alert("Cell index is: " + tr.rowIndex + " " + x.cellIndex);
 }
 
-function delLigne(link) {
+function delLine(link) {
 	// 1. récuperer le node "TABLE" à manipuler
 	var td = link.parentNode;
 	var table = getParent(td, 'TABLE');
