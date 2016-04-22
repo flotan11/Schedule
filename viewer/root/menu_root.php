@@ -11,23 +11,9 @@ session_start ();
 </header>
 <body>
 <?php
-if (! isset ( $_SESSION ['logged'] ) || $_SESSION ['status'] != 'root') {
-	echo '<h2>You dont have the right access, please try to connect and try again.</h2>';
-	$target = "";
-	if (isset ( $_SESSION ['status'] )) {
-		switch ($_SESSION ['status']) {
-			case 'teacher' :
-				$target = '../teacher/menu_teacher.php';
-				break;
-			case 'student' :
-				$target = '../student/menu.php';
-				break;
-		}
-	} else {
-		$target = '../index.php';
-	}
-	echo '<button id="retur" name="button" onclick="document.location.href=\'' . $target . '\'">Come back to Menu</button>';
-} else {
+require '../../controller/check.php';
+$check=new check;
+if (!$check->rejectIfDiffer('root')){
 require '../../controller/navb.php';
 echo navb::generateNav ();
 ?>
