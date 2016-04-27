@@ -1,5 +1,7 @@
 <?php
 session_start ();
+require_once dirname(__FILE__).'/../data/pathFinder.php';
+$pathFinder=new pathFinder;
 ?>
 <!DOCTYPE html>
 <html>
@@ -12,7 +14,7 @@ session_start ();
 </header>
 <body>
 <?php
-require '../controller/check.php';
+require_once $pathFinder->getCheck();
 $check=new check;
 	if(!$check->rejectIfLog()){
 ?>
@@ -24,16 +26,15 @@ $check=new check;
 					<h1>
 						<strong>Meeting Planifier</strong>
 					</h1>
-					<p>Please entér your Student ID to access teacher schedule :</p>
+					<p>Please enter your Student ID to access teacher schedule :</p>
 				</div>
 				<div id="formdiv">
-					<form method="POST" action="../controller/check_log.php">
+					<form method="POST" action= <?php echo '\''.$pathFinder->getCheckLog().'\''?>>
 						<p>
 							ID : <input type="text" name="INE" />
 						</p>
 						<p>
-							Teacher : <input type="text" name="INP" /><br>(Login-Code for
-							Teacher Access)
+							Teacher : <input type="text" name="INP" /><br>(Login-Code for Teacher Access)
 						</p>
 						<input type="Submit" value="Enter">
 					</form>

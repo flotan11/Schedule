@@ -1,16 +1,12 @@
 <?php
 session_start ();
-function debug_to_console($data) {
-	if (is_array ( $data )) {
-		$output = "<script>console.log('Debug Objects: " . implode ( ',', $data ) . "');</script>";
-	} else {
-		$output = "<script>console.log('Debug Objects: " . $data . "');</script>";
-	}
-	echo $output;
-}
-require 'askDB.php';
-$conn = askDB::iniServ ();
 
+require_once dirname(__FILE__).'/../data/pathFinder.php';
+$pathFinderCheckLo=new pathFinder;
+require_once $pathFinderCheckLo->getDBAsker();
+echo 'Bordel mais oui';
+$conn=DBAsker::iniServ();
+echo 'tout va bien jusqu ici';
 $reponse_ine = $conn->query ( "select student_id from student"/* where student_id={$_POST['INE']}"*/);
 $reponse_inp = $conn->query ( "select lastname from teacher" );
 $reponse_int = $conn->query ( "select teacher_id from teacher" );
@@ -40,11 +36,11 @@ $reponse_int = $conn->query ( "select teacher_id from teacher" );
 	if ($inp == 'root' && $ine == 'root') {
 		$_SESSION ['status'] = 'root';
 		$reponse_inp->closeCursor ();
-		header ( 'Location: ../viewer/root/menu_root.php' );
+		header ( 'Location: '.$pathFinderCheckLo->getMenuRoot() );
 	} else if ($isOk_ine == true && $isOk_inp == true) {
 		$_SESSION ['status'] = 'student';
 		setcookie ( 'teacher_name', $inp, time () + 365 * 24 * 3600, null, null, false, true );
-		header ( 'Location: ../viewer/student/menu.php' );
+		header ( 'Location: '.$pathFinderCheckLo->getMenu() );
 	} else {
 		while ( $donnees_int = $reponse_int->fetch () ) {
 			if ($ine == $donnees_int ['teacher_id']) {
@@ -63,10 +59,10 @@ $reponse_int = $conn->query ( "select teacher_id from teacher" );
 		
 		if ($isOk_inl == true && $isOk_int == true) {
 			$_SESSION ['status'] = 'teacher';
-			header ( 'Location: ../viewer/teacher/menu_teacher.php' );
+			header ( 'Location: '.$pathFinderCheckLo->getMenuTeacher() );
 		} else {
 			session_destroy ();
-			header ( 'Location: ../viewer/index.php' );
+			header ( 'Location: '.$pathFinderCheckLo->getIndex() );
 		}
 	}
 }
