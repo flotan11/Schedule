@@ -2,23 +2,25 @@
 Class check{
 	private $target="";
 	function reject(){
+		require_once dirname(__FILE__).'/../data/pathFinder.php';
+		$pathFinder=new pathFinder;
 		global $target;
 		if (isset($_SESSION['status'])){
 			switch ($_SESSION ['status']) {
 				case 'root' :
-					$target = 'root/menu_root.php';
+					$target = $pathFinder->getMenuRoot();
 					break;
 					
 				case 'teacher' :
-					$target = 'teacher/menu_teacher.php';
+					$target = $pathFinder->getMenuTeacher();
 					break;
 					
 				case 'student' :
-					$target = 'student/menu.php';
+					$target = $pathFinder->getMenu();
 					break;
 			}
 		}else{
-			$target='index.php';
+			$target= $pathFinder->getIndex();
 		}
 	}
 	

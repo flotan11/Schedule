@@ -11,10 +11,12 @@
 </header>
 <body>
 <?php
-require '../../controller/check.php';
+require_once dirname(__FILE__).'/../../data/pathFinder.php';
+$pathFinder=new pathFinder;
+require_once $pathFinder->getCheck();
 $check=new check;
 if (!$check->rejectIfDiffer('teacher')){
-		require '../../controller/navb.php';
+		require_once $pathFinder->getNavB();
 		echo navb::generateNav(); 
 	}
 ?>

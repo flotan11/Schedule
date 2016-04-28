@@ -13,6 +13,9 @@ session_start ();
 <body>
 
 <?php
+require_once dirname(__FILE__).'/../../data/pathFinder.php';
+$pathFinder=new pathFinder;
+
 function move($v) {
 	$dayw = date ( 'w' ) - 1 + ($v * 7);
 	echo '<table id=\'schedule\'><tr>';
@@ -45,7 +48,7 @@ function move($v) {
 	echo '</table>';
 }
 
-require '../../controller/check.php';
+require_once $pathFinder->getCheck();
 $check=new check;
 if (!$check->rejectIfDiffer('student')){
 ?>
@@ -62,7 +65,7 @@ if (!$check->rejectIfDiffer('student')){
 					<p>Please select the date you would like to meet him :</p>
 				</div>
 			</td>
-			<td><a href='../../controller/logout.php' class='logout'>Logout</a>
+			<td><a href=<?php echo '\''.$pathFinder->getLogout().'\''?> class='logout'>Logout</a>
 			</div>
 				</nav></td>
 		</tr>
@@ -119,27 +122,7 @@ if (!$check->rejectIfDiffer('student')){
 			$datec->modify ( '+1 day' );
 		}
 		$_POST ['weeks'] = $f;
-	} /*
-	   * else if(!isset($_POST['weeks']) && (isset($_POST['button']))){
-	   * $c= date('w')-1-($_POST['button']*7);
-	   * if ($c<0){
-	   * $c=date_format($datec,'t');
-	   * }else if($c>31){
-	   * $c=1;
-	   * }
-	   * ?>
-	   * <script>console.log(<?php echo $c; ?>)</script>
-	   * <?php
-	   * $f=1;
-	   * while ($c>=date_format($datec,'j')){
-	   * if(date_format($datec,'l')=='Sunday'){
-	   * $f++;
-	   * }
-	   * $datec->modify('+1 day');
-	   * }
-	   * $_POST['weeks']=$f;
-	   * }
-	   */
+	}
 	?>
     <option value="1"
 							<?php echo $_POST['weeks']=='1' ? 'selected=\'selected\'':'' ?>>First

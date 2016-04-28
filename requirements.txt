@@ -9,10 +9,10 @@ Requirements
 7- teacher can not add new users to system
 8- teacher can allow existing users to subscribe
 9- teacher can plan different events with same or overlapping time-slots
-10- system is utf-8 encoded (sources, html and database)
+10- system is utf-8 encoded (sources, html and database) -
 11- system is htlm5 compliant https://validator.w3.org/
-12- system uses architecture to separate view, logic and data
-13- system's stylesheets are css3 compliant https://jigsaw.w3.org/css-validator/
+12- system uses architecture to separate view, logic and data -
+13- system's stylesheets are css3 compliant https://jigsaw.w3.org/css-validator/ -
 14- user can switch language of the user interface (english / dutch / french ...)
 15- student gets overview of events he has subscribed to or can subscribe to
 16- event has period that subscription is allowed: start-date and and-date
@@ -28,40 +28,28 @@ Requirements
 	- teachers can log in with a secret code
 	- system can send invitations to students by e-mail with a personal code or link
 	- users use avans login system to enter the system
-
-Global:
-	-The website has a design with AVANS styles (colors,  pattern, ...)
-	-Teacher/Supervisor interfaces have a navbar to naviguate in pages.
-	-you may be disconnected from the site with the "log out" button situated in the navigation bar.
-Teacher:
-   .menu_teacher.php:
-	-Teacher can naviguate in time if events length is superior to 5 days
-   .mail.php:
-	-Teacher can send mail to invite some students in event
-	-Teacher can select a group of students to add to an event
-	-Teacher can invite students by e-mail
-	-Teacher can import a list of students by excel or CSV/text file (if they are already in the system)
-	-Teacher can enter student numbers or names to add them (without create excel or CSV/text file)
-	-Teacher can choose to send and pre-writed mail or personalise it
-   .createE.php:
-	-Teacher can enter name of event and select dates of Start and End
-	-Date are cchecked (Date end > Date Start)
-	-Teacher is reconduct to menu_teacher.php with the new event created in selected
-   .listE.php:
-	-Teacher can have access to a list of Student for an specified event
-	-Teacher can search precise student with a Search bar
-
-Student:
-   .menu.php:
-	- Student has quickly access to General Schedule after log
-	- Student can choose to focus a precise event
-Supervisor:
-	- Supervisor can do all basic SQL request by his interface
-	- Supervisor can display all tables with important informations which missing (example : teacher name when you display event table).
-	- Supervisor uses buttons to display each tables.
-	- Supervisor uses a button to select a table and fill in a quick form for insert data in a table.
-	- Supervisor can select a table with a button and a given for editing it.
-	- Supervisor can delete data in the display menu with a delete button next to the value.
-	- On each pages there is a title for inform what is the page.
-	- search bar to find someone.
-
+25- The website has a design with AVANS styles (colors,  pattern, ...)
+26- Teacher/Supervisor interfaces have a navbar to naviguate in pages. -
+27- you may be disconnected from the site with the "log out" button situated in the navigation bar. -
+28- Teacher can naviguate in time if events length is superior to 5 days
+29- Teacher can send mail to invite some students in event
+30- Teacher can select a group of students to add to an event
+31- Teacher can invite students by e-mail
+32- Teacher can import a list of students by excel or CSV/text file (if they are already in the system)
+33- Teacher can enter student numbers or names to add them (without create excel or CSV/text file)
+34- Teacher can choose to send and pre-writed mail or personalise it
+35- Teacher can enter name of event and select dates of Start and End
+36- Date are cchecked (Date end > Date Start)
+37- Teacher is reconduct to menu_teacher.php with the new event created in selected
+38- Teacher can have access to a list of Student for an specified event
+39- Teacher can search precise student with a Search bar
+40- Student has quickly access to General Schedule after log
+41- Student can choose to focus a precise event
+42- Supervisor can do all basic SQL request by his interface
+43- Supervisor can display all tables with important informations which missing (example : teacher name when you display event table).
+44- Supervisor uses buttons to display each tables.
+45- Supervisor uses a button to select a table and fill in a quick form for insert data in a table.
+46- Supervisor can select a table with a button and a given for editing it.
+47- Supervisor can delete data in the display menu with a delete button next to the value.
+48- search bar to find someone.
+49- The website is responsive for small screen like smartphone.
